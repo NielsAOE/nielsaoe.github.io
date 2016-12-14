@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="picojson::null_parse\l_context::dummy_str",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structpicojson_1_1null__parse__context_1_1dummy__str.html"];
+}

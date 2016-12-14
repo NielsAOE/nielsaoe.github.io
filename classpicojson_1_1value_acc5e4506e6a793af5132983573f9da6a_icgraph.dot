@@ -1,0 +1,11 @@
+digraph "picojson::value::operator="
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node72 [label="picojson::value::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node72 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="picojson::default_parse\l_context::parse_object_item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpicojson_1_1default__parse__context.html#adf71929b098e4f4b5c32222af149655a"];
+  Node72 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="picojson::null_parse\l_context::parse_object_item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpicojson_1_1null__parse__context.html#a97c4b81a984ea473fe56e09aed7b9ca6"];
+}
