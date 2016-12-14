@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "JoNiDa Game Engine", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
