@@ -1,0 +1,8 @@
+<map id="AudioSource::Instance" name="AudioSource::Instance">
+<area shape="rect" id="node2" href="$class_audio.html#a69407241eefda94a7440e6aac9b5067c" title="Audio::Audio" alt="" coords="255,5,352,31"/>
+<area shape="rect" id="node3" href="$class_audio_source.html#a4d4b2be34ec676bf01d1ca1784f79a07" title="AudioSource::~AudioSource" alt="" coords="209,55,398,80"/>
+<area shape="rect" id="node4" href="$class_audio_source.html#a6d1aa7d3f704a9264b2877be2a99e9a1" title="AudioSource::start" alt="" coords="238,104,369,129"/>
+<area shape="rect" id="node5" href="$class_audio_source.html#adbc2b433741a1c998eb529e60e16a900" title="AudioSource::SetClip" alt="" coords="229,153,377,179"/>
+<area shape="rect" id="node6" href="$class_audio_source.html#ab6bb892caf1fd0d5bc50e070d2b85dfa" title="AudioSource::PlayClip" alt="" coords="226,203,380,228"/>
+<area shape="rect" id="node7" href="$class_audio_source.html#acb9ed5f614745f447fe35745f638be93" title="AudioSource::update" alt="" coords="231,252,376,277"/>
+</map>

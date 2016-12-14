@@ -1,0 +1,4 @@
+<map id="Renderer::draw" name="Renderer::draw">
+<area shape="rect" id="node2" href="$class_transform.html#a35e627aa09604bf3a81f4c07d28205f3" title="Transform::globalTransform" alt="" coords="167,29,351,55"/>
+<area shape="rect" id="node3" href="$class_transform.html#a8b85abc03488f58bef8bb78df77c1689" title="Transform::localTransform" alt="" coords="399,29,576,55"/>
+</map>

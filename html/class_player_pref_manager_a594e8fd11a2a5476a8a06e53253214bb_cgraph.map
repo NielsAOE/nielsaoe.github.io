@@ -1,0 +1,19 @@
+<map id="PlayerPrefManager::~PlayerPrefManager" name="PlayerPrefManager::~PlayerPrefManager">
+<area shape="rect" id="node2" href="$class_player_pref_manager.html#a393669e405aa8310c8425ed03e2b1763" title="PlayerPrefManager::\lstartUp" alt="" coords="213,5,356,44"/>
+<area shape="rect" id="node3" href="$class_player_pref_manager.html#af395e5a4b0d8a749416dd6f3c415ca2b" title="PlayerPrefManager::\lshutDown" alt="" coords="213,68,356,107"/>
+<area shape="rect" id="node6" href="$class_player_pref_manager.html#a3cae3ed1d030157c8323c2fb427cc07f" title="PlayerPrefManager::\lHasKey" alt="" coords="213,131,356,169"/>
+<area shape="rect" id="node7" href="$class_player_pref_manager.html#aeab49b9c5ba9848632291119abf4fa8f" title="PlayerPrefManager::\lGetBool" alt="" coords="213,193,356,232"/>
+<area shape="rect" id="node8" href="$class_player_pref_manager.html#a108acf23509fa637d1cdfda3be77d5bb" title="PlayerPrefManager::\lGetDouble" alt="" coords="213,256,356,295"/>
+<area shape="rect" id="node9" href="$class_player_pref_manager.html#a083901a3d3c8e0f10b4ab0046e62008e" title="PlayerPrefManager::\lGetInt" alt="" coords="213,319,356,357"/>
+<area shape="rect" id="node10" href="$class_player_pref_manager.html#a7ace310b0d8b5abd9d900bc249b01e88" title="PlayerPrefManager::\lGetString" alt="" coords="213,381,356,420"/>
+<area shape="rect" id="node11" href="$class_player_pref_manager.html#a5757d9fe8b8c10dca352969b47aabb8a" title="PlayerPrefManager::\lSetBool" alt="" coords="213,444,356,483"/>
+<area shape="rect" id="node12" href="$class_player_pref_manager.html#aa675901b28df2e31c6761aac54a2903a" title="PlayerPrefManager::\lSetDouble" alt="" coords="213,507,356,545"/>
+<area shape="rect" id="node13" href="$class_player_pref_manager.html#a23a01428428d0783e9f1e606a83903cf" title="PlayerPrefManager::\lSetInt" alt="" coords="213,569,356,608"/>
+<area shape="rect" id="node14" href="$class_player_pref_manager.html#a7d2e24266a566c85764a9bf91d91eb27" title="PlayerPrefManager::\lSetString" alt="" coords="213,632,356,671"/>
+<area shape="rect" id="node15" href="$class_player_pref_manager.html#a36eae7cc60015576ba1406daa4512345" title="PlayerPrefManager::\lDeleteKey" alt="" coords="213,695,356,733"/>
+<area shape="rect" id="node16" href="$class_player_pref_manager.html#aa5df6c238b228cdcbb3c0ba7d22dc32c" title="PlayerPrefManager::\lDeleteAll" alt="" coords="213,757,356,796"/>
+<area shape="rect" id="node17" href="$class_player_pref_manager.html#ad78d4d453c62d136f8d8d5d09e2156dd" title="PlayerPrefManager::Save" alt="" coords="197,820,371,845"/>
+<area shape="rect" id="node4" href="$namespacepicojson.html#a1ba78f161e46341e0c2fd705ff8b0210" title="picojson::get_last\l_error" alt="" coords="440,40,564,79"/>
+<area shape="rect" id="node5" href="$classpicojson_1_1value.html#a6a1099de1eb4f070445dc3eadb843a92" title="picojson::value::get" alt="" coords="435,103,570,128"/>
+<area shape="rect" id="node18" href="$classpicojson_1_1value.html#a23664084ed4a8ecbfda901484de34bbc" title="picojson::value::serialize" alt="" coords="419,820,585,845"/>
+</map>

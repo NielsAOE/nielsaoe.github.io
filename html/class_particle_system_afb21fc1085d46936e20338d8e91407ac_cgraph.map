@@ -1,0 +1,4 @@
+<map id="ParticleSystem::Start" name="ParticleSystem::Start">
+<area shape="rect" id="node2" href="$class_particle_system.html#ae29e9a0135a189a79f5bcb091b15b4ba" title="ParticleSystem::SetCircular\lRandEmit" alt="" coords="199,5,383,44"/>
+<area shape="rect" id="node3" href="$class_particle_system.html#a166fd86f020b6024d7d42723762d7cb2" title="ParticleSystem::update" alt="" coords="212,68,370,93"/>
+</map>

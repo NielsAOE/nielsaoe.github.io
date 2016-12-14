@@ -1,0 +1,6 @@
+<map id="picojson::value::swap" name="picojson::value::swap">
+<area shape="rect" id="node2" href="$classpicojson_1_1value.html#acc5e4506e6a793af5132983573f9da6a" title="picojson::value::operator=" alt="" coords="201,43,376,68"/>
+<area shape="rect" id="node5" href="$namespacestd.html#abb7e41c7063536ff6eeee4bb5f66de6c" title="std::swap" alt="" coords="250,92,327,117"/>
+<area shape="rect" id="node3" href="$classpicojson_1_1default__parse__context.html#adf71929b098e4f4b5c32222af149655a" title="picojson::default_parse\l_context::parse_object_item" alt="" coords="424,5,612,44"/>
+<area shape="rect" id="node4" href="$classpicojson_1_1null__parse__context.html#a97c4b81a984ea473fe56e09aed7b9ca6" title="picojson::null_parse\l_context::parse_object_item" alt="" coords="424,68,612,107"/>
+</map>

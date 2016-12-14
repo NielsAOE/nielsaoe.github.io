@@ -1,0 +1,8 @@
+<map id="GameObject::getComponent" name="GameObject::getComponent">
+<area shape="rect" id="node2" href="$class_audio_source.html#a6d1aa7d3f704a9264b2877be2a99e9a1" title="AudioSource::start" alt="" coords="286,5,417,31"/>
+<area shape="rect" id="node3" href="$class_audio_source.html#acb9ed5f614745f447fe35745f638be93" title="AudioSource::update" alt="" coords="278,55,424,80"/>
+<area shape="rect" id="node4" href="$class_camera_handler.html#a45dc996a15d52ba92d64df52e86e8306" title="CameraHandler::UpdateCamera" alt="" coords="244,104,458,129"/>
+<area shape="rect" id="node5" href="$class_engine.html#a7acc08d07a4abd266a81b1be981b6c47" title="Engine::loadScene" alt="" coords="284,153,418,179"/>
+<area shape="rect" id="node6" href="$class_light_source.html#aa5a774e875e1498228cb68ccff7ac6b1" title="LightSource::start" alt="" coords="288,203,414,228"/>
+<area shape="rect" id="node7" href="$class_renderer.html#aab16b9ba63fb38f2c5ea7db11dbfc1bf" title="Renderer::Renderer" alt="" coords="281,252,421,277"/>
+</map>

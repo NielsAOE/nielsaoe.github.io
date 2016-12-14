@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_component.html" title="Component" alt="" coords="5,153,96,179"/>
+<area shape="rect" id="node2" href="$class_audio_source.html" title="AudioSource" alt="" coords="150,5,248,31"/>
+<area shape="rect" id="node3" href="$class_light_source.html" title="LightSource" alt="" coords="152,55,245,80"/>
+<area shape="rect" id="node4" href="$class_particle_system.html" title="ParticleSystem" alt="" coords="144,104,254,129"/>
+<area shape="rect" id="node5" href="$class_renderer.html" title="Renderer" alt="" coords="160,153,237,179"/>
+<area shape="rect" id="node6" href="$class_rigidbody.html" title="Rigidbody" alt="" coords="158,203,239,228"/>
+<area shape="rect" id="node7" href="$class_scriptable.html" title="Scriptable" alt="" coords="158,252,239,277"/>
+<area shape="rect" id="node9" href="$class_transform.html" title="Transform" alt="" coords="158,301,240,327"/>
+<area shape="rect" id="node8" href="$class_particle_controller.html" title="ParticleController" alt="" coords="302,252,425,277"/>
+</map>

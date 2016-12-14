@@ -1,0 +1,4 @@
+<map id="PhysicsManager::Instance" name="PhysicsManager::Instance">
+<area shape="rect" id="node2" href="$class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" title="Engine::start" alt="" coords="244,5,341,31"/>
+<area shape="rect" id="node3" href="$class_rigidbody.html#ad68857e87ad5261bab1adc3ad2d9ee3f" title="Rigidbody::Setup" alt="" coords="231,55,354,80"/>
+</map>
