@@ -2,8 +2,6 @@ var searchData=
 [
   ['particle_2ecpp',['Particle.cpp',['../_particle_8cpp.html',1,'']]],
   ['particle_2ehpp',['Particle.hpp',['../_particle_8hpp.html',1,'']]],
-  ['particlecontroller_2ecpp',['ParticleController.cpp',['../_particle_controller_8cpp.html',1,'']]],
-  ['particlecontroller_2ehpp',['ParticleController.hpp',['../_particle_controller_8hpp.html',1,'']]],
   ['particlesystem_2ecpp',['ParticleSystem.cpp',['../_particle_system_8cpp.html',1,'']]],
   ['particlesystem_2ehpp',['ParticleSystem.hpp',['../_particle_system_8hpp.html',1,'']]],
   ['physicsmanager_2ecpp',['PhysicsManager.cpp',['../_physics_manager_8cpp.html',1,'']]],

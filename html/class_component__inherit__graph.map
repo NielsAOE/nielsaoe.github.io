@@ -5,6 +5,5 @@
 <area shape="rect" id="node5" href="$class_renderer.html" title="{Renderer\n|+ mesh\l+ shader\l+ color\l|+ ~Renderer()\l+ draw()\l# Renderer()\l}" alt="" coords="519,273,624,400"/>
 <area shape="rect" id="node6" href="$class_rigidbody.html" title="{Rigidbody\n|+ bd\l+ body\l|+ Setup()\l+ PreSolve()\l# Rigidbody()\l}" alt="" coords="648,280,749,393"/>
 <area shape="rect" id="node7" href="$class_scriptable.html" title="{Scriptable\n||+ Awake()\l+ Update()\l+ Start()\l+ OnCollisionEnter()\l+ OnCollisionExit()\l# Scriptable()\l}" alt="" coords="773,267,915,407"/>
-<area shape="rect" id="node9" href="$class_transform.html" title="{Transform\n|+ position\l+ parent\l+ rotation\l+ scale\l|+ localTransform()\l+ globalTransform()\l# Transform()\l}" alt="" coords="939,267,1076,407"/>
-<area shape="rect" id="node8" href="$class_particle_controller.html" title="{ParticleController\n|+ timePassed\l|+ Awake()\l+ Update()\l+ Start()\l# ParticleController()\l}" alt="" coords="772,541,915,655"/>
+<area shape="rect" id="node8" href="$class_transform.html" title="{Transform\n|+ position\l+ parent\l+ rotation\l+ scale\l|+ localTransform()\l+ globalTransform()\l# Transform()\l}" alt="" coords="939,267,1076,407"/>
 </map>

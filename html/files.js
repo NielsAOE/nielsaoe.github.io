@@ -42,10 +42,6 @@ var files =
     [ "Particle.hpp", "_particle_8hpp.html", [
       [ "Particle", "class_particle.html", "class_particle" ]
     ] ],
-    [ "ParticleController.cpp", "_particle_controller_8cpp.html", null ],
-    [ "ParticleController.hpp", "_particle_controller_8hpp.html", [
-      [ "ParticleController", "class_particle_controller.html", "class_particle_controller" ]
-    ] ],
     [ "ParticleSystem.cpp", "_particle_system_8cpp.html", null ],
     [ "ParticleSystem.hpp", "_particle_system_8hpp.html", "_particle_system_8hpp" ],
     [ "PhysicsManager.cpp", "_physics_manager_8cpp.html", null ],

@@ -15,9 +15,7 @@ var hierarchy =
       [ "ParticleSystem", "class_particle_system.html", null ],
       [ "Renderer", "class_renderer.html", null ],
       [ "Rigidbody", "class_rigidbody.html", null ],
-      [ "Scriptable", "class_scriptable.html", [
-        [ "ParticleController", "class_particle_controller.html", null ]
-      ] ],
+      [ "Scriptable", "class_scriptable.html", null ],
       [ "Transform", "class_transform.html", null ]
     ] ],
     [ "picojson::default_parse_context", "classpicojson_1_1default__parse__context.html", null ],

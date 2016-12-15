@@ -5,5 +5,5 @@ var searchData=
   ['addgameobject',['addGameObject',['../class_scene.html#abf41478c6b60d63bc3b2d3a01a0614d4',1,'Scene']]],
   ['audio',['Audio',['../class_audio.html#a69407241eefda94a7440e6aac9b5067c',1,'Audio']]],
   ['audiosource',['AudioSource',['../class_audio_source.html#ab0435f060f837b69107e5c3bb4eeff33',1,'AudioSource']]],
-  ['awake',['Awake',['../class_particle_controller.html#a30eaffc41f0272c537b3f6a5e7321f68',1,'ParticleController::Awake()'],['../class_scriptable.html#ac144df50455795d33947a25dc3584671',1,'Scriptable::Awake()']]]
+  ['awake',['Awake',['../class_scriptable.html#ac144df50455795d33947a25dc3584671',1,'Scriptable']]]
 ];

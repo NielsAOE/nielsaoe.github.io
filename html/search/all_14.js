@@ -3,7 +3,6 @@ var searchData=
   ['tex',['tex',['../class_particle_system.html#a445a099cdeba13dad0c94f9e7f2a949c',1,'ParticleSystem']]],
   ['threepressed',['threePressed',['../class_input_manager.html#a1e630d1ecd95c48b14b12467ae832d7b',1,'InputManager']]],
   ['timeofbirth',['timeOfBirth',['../class_particle.html#a3d80d7734f06eaa8327b3390f13a1cdf',1,'Particle']]],
-  ['timepassed',['timePassed',['../class_particle_controller.html#a7a31e76b329dc3f73e00d76c59980073',1,'ParticleController']]],
   ['to_5fstr',['to_str',['../classpicojson_1_1value.html#a005099b2865752cf31b7ced33bd85f59',1,'picojson::value']]],
   ['to_5fvec3',['to_vec3',['../_scene_parser_8cpp.html#aebf61d8c060020f4498f29f7ba6e85f5',1,'SceneParser.cpp']]],
   ['to_5fvec4',['to_vec4',['../_scene_parser_8cpp.html#a0a3abae35f7aec2cb39e7e1c7eba5ea0',1,'SceneParser.cpp']]],

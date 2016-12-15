@@ -12,7 +12,6 @@ var annotated_dup =
     [ "InputManager", "class_input_manager.html", "class_input_manager" ],
     [ "LightSource", "class_light_source.html", "class_light_source" ],
     [ "Particle", "class_particle.html", "class_particle" ],
-    [ "ParticleController", "class_particle_controller.html", "class_particle_controller" ],
     [ "ParticleSystem", "class_particle_system.html", "class_particle_system" ],
     [ "PhysicsManager", "class_physics_manager.html", "class_physics_manager" ],
     [ "PlayerPrefManager", "class_player_pref_manager.html", "class_player_pref_manager" ],

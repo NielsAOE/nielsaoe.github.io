@@ -9,7 +9,6 @@ var searchData=
   ['parse_5fstring',['parse_string',['../classpicojson_1_1deny__parse__context.html#a2000b3dcc1fb70a4c795e834f9d3122f',1,'picojson::deny_parse_context::parse_string()'],['../classpicojson_1_1default__parse__context.html#a476c7d30a5cf382b48201ec64585c2f3',1,'picojson::default_parse_context::parse_string()'],['../classpicojson_1_1null__parse__context.html#aab2c7dee1eb5b477370832811cd40d14',1,'picojson::null_parse_context::parse_string()']]],
   ['parsefile',['parseFile',['../class_scene_parser.html#a3f69f475dee046264762e618e70b78e6',1,'SceneParser']]],
   ['particle',['Particle',['../class_particle.html#a1081746ed7586d5438c7c20bf4d1e9ee',1,'Particle']]],
-  ['particlecontroller',['ParticleController',['../class_particle_controller.html#ad5423f186adfbed74de1f41d830f6c13',1,'ParticleController']]],
   ['particlesystem',['ParticleSystem',['../class_particle_system.html#a4d56951551ccb0cb460eb5ced69b0e13',1,'ParticleSystem']]],
   ['playclip',['PlayClip',['../class_audio_source.html#ab6bb892caf1fd0d5bc50e070d2b85dfa',1,'AudioSource']]],
   ['playerprefmanager',['PlayerPrefManager',['../class_player_pref_manager.html#a47b56d7317f5fbe7983492507e1254c6',1,'PlayerPrefManager']]],
