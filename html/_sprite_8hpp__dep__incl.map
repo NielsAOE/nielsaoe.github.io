@@ -1,7 +1,9 @@
 <map id="Sprite.hpp" name="Sprite.hpp">
-<area shape="rect" id="node2" href="$_engine_8hpp.html" title="Engine.hpp" alt="" coords="60,79,148,104"/>
-<area shape="rect" id="node5" href="$_sprite_8cpp.html" title="Sprite.cpp" alt="" coords="173,79,254,104"/>
-<area shape="rect" id="node6" href="$_sprite_atlas_8cpp.html" title="SpriteAtlas.cpp" alt="" coords="278,79,389,104"/>
-<area shape="rect" id="node3" href="$_engine_8cpp.html" title="Engine.cpp" alt="" coords="5,152,93,177"/>
-<area shape="rect" id="node4" href="$_scene_8cpp.html" title="Scene.cpp" alt="" coords="118,152,202,177"/>
+<area shape="rect" id="node2" href="$_sprite_and_position_8hpp.html" title="SpriteAndPosition.hpp" alt="" coords="99,79,253,104"/>
+<area shape="rect" id="node7" href="$_sprite_8cpp.html" title="Sprite.cpp" alt="" coords="277,79,358,104"/>
+<area shape="rect" id="node8" href="$_sprite_atlas_8cpp.html" title="SpriteAtlas.cpp" alt="" coords="382,79,493,104"/>
+<area shape="rect" id="node3" href="$_engine_8hpp.html" title="Engine.hpp" alt="" coords="60,152,148,177"/>
+<area shape="rect" id="node6" href="$_sprite_and_position_8cpp.html" title="SpriteAndPosition.cpp" alt="" coords="172,152,324,177"/>
+<area shape="rect" id="node4" href="$_engine_8cpp.html" title="Engine.cpp" alt="" coords="5,225,93,251"/>
+<area shape="rect" id="node5" href="$_scene_8cpp.html" title="Scene.cpp" alt="" coords="118,225,202,251"/>
 </map>

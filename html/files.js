@@ -78,6 +78,10 @@ var files =
     [ "Sprite.hpp", "_sprite_8hpp.html", [
       [ "Sprite", "class_sprite.html", "class_sprite" ]
     ] ],
+    [ "SpriteAndPosition.cpp", "_sprite_and_position_8cpp.html", null ],
+    [ "SpriteAndPosition.hpp", "_sprite_and_position_8hpp.html", [
+      [ "SpriteAndPosition", "class_sprite_and_position.html", "class_sprite_and_position" ]
+    ] ],
     [ "SpriteAtlas.cpp", "_sprite_atlas_8cpp.html", null ],
     [ "SpriteAtlas.hpp", "_sprite_atlas_8hpp.html", [
       [ "SpriteAtlas", "class_sprite_atlas.html", "class_sprite_atlas" ]

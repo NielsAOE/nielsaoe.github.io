@@ -92,19 +92,12 @@ $(document).ready(function(){initNavTree('class_particle_system.html','');});
 <div class="dynheader">
 Inheritance diagram for ParticleSystem:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system__inherit__graph.png" border="0" usemap="#_particle_system_inherit__map" alt="Inheritance graph"/></div>
-<map name="_particle_system_inherit__map" id="_particle_system_inherit__map">
-<area shape="rect" id="node2" href="class_component.html" title="{Component\n|# gameObject\l# name\l|+ ~Component()\l+ getGameObject()\l+ getName()\l# Component()\l}" alt="" coords="25,5,160,132"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system__inherit__graph.svg" width="186" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ParticleSystem:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system__coll__graph.png" border="0" usemap="#_particle_system_coll__map" alt="Collaboration graph"/></div>
-<map name="_particle_system_coll__map" id="_particle_system_coll__map">
-<area shape="rect" id="node2" href="class_component.html" title="{Component\n|# name\l|+ ~Component()\l+ getGameObject()\l+ getName()\l# Component()\l}" alt="" coords="25,220,160,333"/>
-<area shape="rect" id="node3" href="class_game_object.html" title="{GameObject\n||+ ~GameObject()\l+ getName()\l+ getID()\l+ addComponent()\l+ removeComponent()\l+ getComponent()\l+ getComponents()\l}" alt="" coords="15,5,170,159"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system__coll__graph.svg" width="186" height="688"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -137,8 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a11f6178d2036716aa55f836f080a82a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae29e9a0135a189a79f5bcb091b15b4ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particle_system.html#ae29e9a0135a189a79f5bcb091b15b4ba">SetCircularRandEmit</a> ()</td></tr>
 <tr class="separator:ae29e9a0135a189a79f5bcb091b15b4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab691c4365d9defd27b060f33e693edd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particle_system.html#ab691c4365d9defd27b060f33e693edd4">SetCircularVelocity</a> (float velocity)</td></tr>
-<tr class="separator:ab691c4365d9defd27b060f33e693edd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4114541a85e16bac896ffd30718cdbd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particle_system.html#a4114541a85e16bac896ffd30718cdbd8">SetVelocity</a> (float velocity)</td></tr>
+<tr class="separator:a4114541a85e16bac896ffd30718cdbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84968bbdc84a932f378f3cc5c7a64a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particle_system.html#a84968bbdc84a932f378f3cc5c7a64a16">SetVectorEmit</a> (glm::vec3 dir)</td></tr>
 <tr class="separator:a84968bbdc84a932f378f3cc5c7a64a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a048e81ff8ab574f5a34a6990f746bc15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_particle_system.html#a048e81ff8ab574f5a34a6990f746bc15">setupPhysics</a> (float hx, float hy, bool hasFixedRotation, <a class="el" href="class_rigidbody.html#a6dad2fe845b1823877f843c259c8efee">Rigidbody::bodyType</a> bodytype, float bounce, float density, float angle)</td></tr>
@@ -187,6 +180,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="class_particle_system.html">ParticleSystem</a> constructor </p>
 
 </div>
 </div>
@@ -216,13 +210,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Emit particles </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The position from which the particles are emitted </td></tr>
+    <tr><td class="paramname">velocity</td><td>The velocity of the <a class="el" href="class_particle.html">Particle</a> s </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_a4d39a1798ee1756505734179e07a918a_icgraph.png" border="0" usemap="#class_particle_system_a4d39a1798ee1756505734179e07a918a_icgraph" alt=""/></div>
-<map name="class_particle_system_a4d39a1798ee1756505734179e07a918a_icgraph" id="class_particle_system_a4d39a1798ee1756505734179e07a918a_icgraph">
-<area shape="rect" id="node2" href="class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" title="Engine::start" alt="" coords="196,5,292,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_a4d39a1798ee1756505734179e07a918a_icgraph.svg" width="298" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -241,13 +239,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The current direction the <a class="el" href="class_particle_system.html">ParticleSystem</a> has to emmit <a class="el" href="class_particle.html">Particle</a> s in. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_ae5adeb45ba8319d18c699abac92896df_icgraph.png" border="0" usemap="#class_particle_system_ae5adeb45ba8319d18c699abac92896df_icgraph" alt=""/></div>
-<map name="class_particle_system_ae5adeb45ba8319d18c699abac92896df_icgraph" id="class_particle_system_ae5adeb45ba8319d18c699abac92896df_icgraph">
-<area shape="rect" id="node2" href="class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" title="Engine::start" alt="" coords="264,5,360,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_ae5adeb45ba8319d18c699abac92896df_icgraph.svg" width="366" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -266,13 +262,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Render the <a class="el" href="class_particle.html">Particle</a> </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_af2ec9e0fe49695569a9524f6a2238e6f_icgraph.png" border="0" usemap="#class_particle_system_af2ec9e0fe49695569a9524f6a2238e6f_icgraph" alt=""/></div>
-<map name="class_particle_system_af2ec9e0fe49695569a9524f6a2238e6f_icgraph" id="class_particle_system_af2ec9e0fe49695569a9524f6a2238e6f_icgraph">
-<area shape="rect" id="node2" href="class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" title="Engine::start" alt="" coords="210,5,306,31"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_af2ec9e0fe49695569a9524f6a2238e6f_icgraph.svg" width="311" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -291,32 +285,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set the <a class="el" href="class_particle_system.html">ParticleSystem</a> to emit <a class="el" href="class_particle.html">Particle</a> s in a random circle pattern. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_ae29e9a0135a189a79f5bcb091b15b4ba_icgraph.png" border="0" usemap="#class_particle_system_ae29e9a0135a189a79f5bcb091b15b4ba_icgraph" alt=""/></div>
-<map name="class_particle_system_ae29e9a0135a189a79f5bcb091b15b4ba_icgraph" id="class_particle_system_ae29e9a0135a189a79f5bcb091b15b4ba_icgraph">
-<area shape="rect" id="node2" href="class_particle_system.html#afb21fc1085d46936e20338d8e91407ac" title="ParticleSystem::Start" alt="" coords="237,12,383,37"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_ae29e9a0135a189a79f5bcb091b15b4ba_icgraph.svg" width="388" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="ab691c4365d9defd27b060f33e693edd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab691c4365d9defd27b060f33e693edd4">&sect;&nbsp;</a></span>SetCircularVelocity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ParticleSystem::SetCircularVelocity </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>velocity</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -335,6 +309,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to fixed color mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -353,6 +333,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to fixed size mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>The size of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -381,6 +367,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to linear interpolation color mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lowerColor</td><td>The color in one end of the scale of the particles </td></tr>
+    <tr><td class="paramname">upperColor</td><td>The color in the other end of the scale of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -409,6 +402,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to linear interpolation size mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fromSize</td><td>The smallest size of the particles </td></tr>
+    <tr><td class="paramname">toSize</td><td>The largest size of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -437,6 +437,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to random color mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lowerColor</td><td>The color in one end of the scale of the particles </td></tr>
+    <tr><td class="paramname">upperColor</td><td>The color in the other end of the scale of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -465,6 +472,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to random size mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fromSize</td><td>The smallest size of the particles </td></tr>
+    <tr><td class="paramname">toSize</td><td>The largest size of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -493,6 +507,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to spline interpolation color mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lowerColor</td><td>The color in one end of the scale of the particles </td></tr>
+    <tr><td class="paramname">upperColor</td><td>The color in the other end of the scale of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -521,6 +542,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set <a class="el" href="class_particle_system.html">ParticleSystem</a> to spline interpolation size mode </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fromSize</td><td>The smallest size of the particles </td></tr>
+    <tr><td class="paramname">toSize</td><td>The largest size of the particles </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -579,6 +607,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>NOT IMPLEMENTED Set physics on the <a class="el" href="class_particle.html">Particle</a> s </p>
 
 </div>
 </div>
@@ -597,6 +626,36 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set the <a class="el" href="class_particle_system.html">ParticleSystem</a> to emit <a class="el" href="class_particle.html">Particle</a> s in a specified direction </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>The desired direction the <a class="el" href="class_particle.html">Particle</a> s are emmited in. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4114541a85e16bac896ffd30718cdbd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4114541a85e16bac896ffd30718cdbd8">&sect;&nbsp;</a></span>SetVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ParticleSystem::SetVelocity </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>velocity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the velocity of the <a class="el" href="class_particle.html">Particle</a> s in the <a class="el" href="class_particle_system.html">ParticleSystem</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">velocity</td><td>The desired velocity of the <a class="el" href="class_particle.html">Particle</a> s </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -618,11 +677,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_afb21fc1085d46936e20338d8e91407ac_cgraph.png" border="0" usemap="#class_particle_system_afb21fc1085d46936e20338d8e91407ac_cgraph" alt=""/></div>
-<map name="class_particle_system_afb21fc1085d46936e20338d8e91407ac_cgraph" id="class_particle_system_afb21fc1085d46936e20338d8e91407ac_cgraph">
-<area shape="rect" id="node2" href="class_particle_system.html#ae29e9a0135a189a79f5bcb091b15b4ba" title="ParticleSystem::SetCircular\lRandEmit" alt="" coords="199,5,383,44"/>
-<area shape="rect" id="node3" href="class_particle_system.html#a166fd86f020b6024d7d42723762d7cb2" title="ParticleSystem::update" alt="" coords="212,68,370,93"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_afb21fc1085d46936e20338d8e91407ac_cgraph.svg" width="388" height="99"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -642,14 +697,11 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Updates the <a class="el" href="class_particle.html">Particle</a> s' position, size, and color </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_particle_system_a166fd86f020b6024d7d42723762d7cb2_icgraph.png" border="0" usemap="#class_particle_system_a166fd86f020b6024d7d42723762d7cb2_icgraph" alt=""/></div>
-<map name="class_particle_system_a166fd86f020b6024d7d42723762d7cb2_icgraph" id="class_particle_system_a166fd86f020b6024d7d42723762d7cb2_icgraph">
-<area shape="rect" id="node2" href="class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" title="Engine::start" alt="" coords="237,5,333,31"/>
-<area shape="rect" id="node3" href="class_particle_system.html#afb21fc1085d46936e20338d8e91407ac" title="ParticleSystem::Start" alt="" coords="212,55,358,80"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_particle_system_a166fd86f020b6024d7d42723762d7cb2_icgraph.svg" width="363" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -666,6 +718,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The <a class="el" href="class_particle.html">Particle</a> size </p>
 
 </div>
 </div>
@@ -680,6 +733,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The Texture of the <a class="el" href="class_particle_system.html">ParticleSystem</a> </p>
 
 </div>
 </div>

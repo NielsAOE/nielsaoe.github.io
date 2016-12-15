@@ -8,6 +8,8 @@ var searchData=
   ['scriptable_2ehpp',['Scriptable.hpp',['../_scriptable_8hpp.html',1,'']]],
   ['sprite_2ecpp',['Sprite.cpp',['../_sprite_8cpp.html',1,'']]],
   ['sprite_2ehpp',['Sprite.hpp',['../_sprite_8hpp.html',1,'']]],
+  ['spriteandposition_2ecpp',['SpriteAndPosition.cpp',['../_sprite_and_position_8cpp.html',1,'']]],
+  ['spriteandposition_2ehpp',['SpriteAndPosition.hpp',['../_sprite_and_position_8hpp.html',1,'']]],
   ['spriteatlas_2ecpp',['SpriteAtlas.cpp',['../_sprite_atlas_8cpp.html',1,'']]],
   ['spriteatlas_2ehpp',['SpriteAtlas.hpp',['../_sprite_atlas_8hpp.html',1,'']]]
 ];

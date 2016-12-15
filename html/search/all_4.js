@@ -12,7 +12,7 @@ var searchData=
   ['deny_5fparse_5fcontext',['deny_parse_context',['../classpicojson_1_1deny__parse__context.html',1,'picojson']]],
   ['doubles',['doubles',['../_player_pref_manager_8cpp.html#ae54ef3f36329d88192f3dbd5a5d11145',1,'PlayerPrefManager.cpp']]],
   ['dpressed',['dPressed',['../class_input_manager.html#a16ad116f5eaa3354c1c3105161200865',1,'InputManager']]],
-  ['draw',['draw',['../class_renderer.html#a9a0a5f207e3d9f60c6372a9c79b25df9',1,'Renderer::draw()'],['../class_sprite.html#a564601ca4ab75681bc6d74acc8199d42',1,'Sprite::draw()']]],
+  ['draw',['draw',['../class_renderer.html#a9a0a5f207e3d9f60c6372a9c79b25df9',1,'Renderer::draw()'],['../class_sprite.html#a7827f112449993f98ac32653e803e182',1,'Sprite::draw()']]],
   ['drawcircle',['DrawCircle',['../class_debug_draw.html#ac0511f8b2427a2ed86e7b76ff43a9158',1,'DebugDraw']]],
   ['drawpoint',['DrawPoint',['../class_debug_draw.html#abe5a1725e9d2d88872d71ca6219a2ec2',1,'DebugDraw']]],
   ['drawpolygon',['DrawPolygon',['../class_debug_draw.html#af93c10a16e52fface88191f52c23a276',1,'DebugDraw']]],

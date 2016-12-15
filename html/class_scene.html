@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('class_scene.html','');});
 <div class="dynheader">
 Collaboration diagram for Scene:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#_scene_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_scene__coll__graph.svg" width="196" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -128,15 +128,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Add existing <a class="el" href="class_game_object.html">GameObject</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameObj</td><td>The <a class="el" href="class_game_object.html">GameObject</a> to be added to the <a class="el" href="class_scene.html">Scene</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The added <a class="el" href="class_game_object.html">GameObject</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_scene_a9e0e66d75a6ebb10c6a371e9de47fff7_cgraph.png" border="0" usemap="#class_scene_a9e0e66d75a6ebb10c6a371e9de47fff7_cgraph" alt=""/></div>
-<map name="class_scene_a9e0e66d75a6ebb10c6a371e9de47fff7_cgraph" id="class_scene_a9e0e66d75a6ebb10c6a371e9de47fff7_cgraph">
-<area shape="rect" id="node2" href="class_game_object.html#a7a7cc496716e8c8453bd0bb954f2a7ee" title="GameObject::getName" alt="" coords="269,5,427,31"/>
-<area shape="rect" id="node3" href="class_engine.html#a63dbe7243f02b5d8880e0a972d916029" title="Engine::Instance" alt="" coords="287,55,408,80"/>
-<area shape="rect" id="node4" href="class_engine.html#ab34fda9195bcfb350bdf9ba906e228e9" title="Engine::CountObjectsUp" alt="" coords="264,104,432,129"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_scene_a9e0e66d75a6ebb10c6a371e9de47fff7_cgraph.svg" width="427" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -156,14 +158,18 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Create and add <a class="el" href="class_game_object.html">GameObject</a> to <a class="el" href="class_scene.html">Scene</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the <a class="el" href="class_game_object.html">GameObject</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The created <a class="el" href="class_game_object.html">GameObject</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_scene_abf41478c6b60d63bc3b2d3a01a0614d4_cgraph.png" border="0" usemap="#class_scene_abf41478c6b60d63bc3b2d3a01a0614d4_cgraph" alt=""/></div>
-<map name="class_scene_abf41478c6b60d63bc3b2d3a01a0614d4_cgraph" id="class_scene_abf41478c6b60d63bc3b2d3a01a0614d4_cgraph">
-<area shape="rect" id="node2" href="class_engine.html#a63dbe7243f02b5d8880e0a972d916029" title="Engine::Instance" alt="" coords="241,5,361,31"/>
-<area shape="rect" id="node3" href="class_engine.html#ab34fda9195bcfb350bdf9ba906e228e9" title="Engine::CountObjectsUp" alt="" coords="217,55,385,80"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_scene_abf41478c6b60d63bc3b2d3a01a0614d4_cgraph.svg" width="391" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -184,6 +190,7 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get all Components of type C in <a class="el" href="class_scene.html">Scene</a> </p>
 
 </div>
 </div>
@@ -202,6 +209,13 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get <a class="el" href="class_game_object.html">GameObject</a> by index </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The unique id that identifies the <a class="el" href="class_game_object.html">GameObject</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="class_game_object.html">GameObject</a> with the given id </dd></dl>
 
 </div>
 </div>
@@ -219,6 +233,7 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get all <a class="el" href="class_game_object.html">GameObject</a> s in <a class="el" href="class_scene.html">Scene</a> </p>
 
 </div>
 </div>
@@ -236,6 +251,7 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The number of <a class="el" href="class_game_object.html">GameObject</a> s in the <a class="el" href="class_scene.html">Scene</a> </dd></dl>
 
 </div>
 </div>
@@ -254,14 +270,18 @@ template&lt;typename C &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Remove <a class="el" href="class_game_object.html">GameObject</a> from <a class="el" href="class_scene.html">Scene</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>The <a class="el" href="class_game_object.html">GameObject</a> to be removed from the <a class="el" href="class_scene.html">Scene</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <a class="el" href="class_game_object.html">GameObject</a> is successfully removed, false if not </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_scene_aad5427fcdd330f65dc4e7b1e627afce4_cgraph.png" border="0" usemap="#class_scene_aad5427fcdd330f65dc4e7b1e627afce4_cgraph" alt=""/></div>
-<map name="class_scene_aad5427fcdd330f65dc4e7b1e627afce4_cgraph" id="class_scene_aad5427fcdd330f65dc4e7b1e627afce4_cgraph">
-<area shape="rect" id="node2" href="class_engine.html#a63dbe7243f02b5d8880e0a972d916029" title="Engine::Instance" alt="" coords="271,5,392,31"/>
-<area shape="rect" id="node3" href="class_engine.html#affd32740921bf7e26bd575cd17d57a85" title="Engine::CountObjectsDown" alt="" coords="239,55,424,80"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_scene_aad5427fcdd330f65dc4e7b1e627afce4_cgraph.svg" width="430" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

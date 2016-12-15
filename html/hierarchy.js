@@ -35,6 +35,7 @@ var hierarchy =
     [ "SceneParser", "class_scene_parser.html", null ],
     [ "picojson::serialize_str_char< Iter >", "structpicojson_1_1serialize__str__char.html", null ],
     [ "Sprite", "class_sprite.html", null ],
+    [ "SpriteAndPosition", "class_sprite_and_position.html", null ],
     [ "SpriteAtlas", "class_sprite_atlas.html", null ],
     [ "picojson::value", "classpicojson_1_1value.html", null ]
 ];

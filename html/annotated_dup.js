@@ -21,6 +21,7 @@ var annotated_dup =
     [ "SceneParser", "class_scene_parser.html", null ],
     [ "Scriptable", "class_scriptable.html", "class_scriptable" ],
     [ "Sprite", "class_sprite.html", "class_sprite" ],
+    [ "SpriteAndPosition", "class_sprite_and_position.html", "class_sprite_and_position" ],
     [ "SpriteAtlas", "class_sprite_atlas.html", "class_sprite_atlas" ],
     [ "Transform", "class_transform.html", "class_transform" ]
 ];
