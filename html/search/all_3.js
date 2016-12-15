@@ -3,8 +3,6 @@ var searchData=
   ['camerahandler',['CameraHandler',['../class_camera_handler.html',1,'']]],
   ['camerahandler_2ecpp',['CameraHandler.cpp',['../_camera_handler_8cpp.html',1,'']]],
   ['camerahandler_2ehpp',['CameraHandler.hpp',['../_camera_handler_8hpp.html',1,'']]],
-  ['collider_2ecpp',['Collider.cpp',['../_collider_8cpp.html',1,'']]],
-  ['collider_2ehpp',['Collider.hpp',['../_collider_8hpp.html',1,'']]],
   ['color',['color',['../class_renderer.html#a9790de4079196dd437e6de42ea2abf40',1,'Renderer::color()'],['../class_game_object_descriptor.html#ae10796f1f144916cd966cade847a3670',1,'GameObjectDescriptor::color()']]],
   ['colormode',['colorMode',['../_particle_system_8hpp.html#ab95aafffcb4b2bdac5d2ba29cd6d3c4c',1,'ParticleSystem.hpp']]],
   ['component',['Component',['../class_component.html',1,'Component'],['../class_component.html#a98d3a7d72f88dc7e67c946c78afb8243',1,'Component::Component()']]],

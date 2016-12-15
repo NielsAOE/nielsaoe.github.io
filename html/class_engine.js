@@ -1,6 +1,5 @@
 var class_engine =
 [
-    [ "Engine", "class_engine.html#ac3fa208b414a5ce46dcddee7c5d9f308", null ],
     [ "initializeImGui", "class_engine.html#a8705f4405cc428e3d67b7c9e94ec0dd3", null ],
     [ "loadScene", "class_engine.html#a7acc08d07a4abd266a81b1be981b6c47", null ],
     [ "start", "class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7", null ],

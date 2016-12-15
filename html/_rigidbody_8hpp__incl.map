@@ -1,5 +1,5 @@
 <map id="Rigidbody.hpp" name="Rigidbody.hpp">
 <area shape="rect" id="node2" href="$_component_8hpp.html" title="Component.hpp" alt="" coords="552,79,669,104"/>
-<area shape="rect" id="node5" href="$_physics_manager_8hpp.html" title="PhysicsManager.hpp" alt="" coords="718,79,863,104"/>
-<area shape="rect" id="node9" href="$_foo_draw2_8hpp.html" title="FooDraw2.hpp" alt="" coords="695,152,804,177"/>
+<area shape="rect" id="node5" href="$_physics_manager_8hpp.html" title="PhysicsManager.hpp" alt="" coords="721,79,866,104"/>
+<area shape="rect" id="node9" href="$_debug_draw_8hpp.html" title="DebugDraw.hpp" alt="" coords="691,152,808,177"/>
 </map>

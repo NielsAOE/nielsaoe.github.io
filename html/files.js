@@ -12,21 +12,17 @@ var files =
     [ "CameraHandler.hpp", "_camera_handler_8hpp.html", [
       [ "CameraHandler", "class_camera_handler.html", "class_camera_handler" ]
     ] ],
-    [ "Collider.cpp", "_collider_8cpp.html", null ],
-    [ "Collider.hpp", "_collider_8hpp.html", [
-      [ "Scriptable", "class_scriptable.html", "class_scriptable" ]
-    ] ],
     [ "Component.cpp", "_component_8cpp.html", null ],
     [ "Component.hpp", "_component_8hpp.html", [
       [ "Component", "class_component.html", "class_component" ]
     ] ],
+    [ "DebugDraw.cpp", "_debug_draw_8cpp.html", null ],
+    [ "DebugDraw.hpp", "_debug_draw_8hpp.html", [
+      [ "DebugDraw", "class_debug_draw.html", "class_debug_draw" ]
+    ] ],
     [ "Engine.cpp", "_engine_8cpp.html", null ],
     [ "Engine.hpp", "_engine_8hpp.html", [
       [ "Engine", "class_engine.html", "class_engine" ]
-    ] ],
-    [ "FooDraw2.cpp", "_foo_draw2_8cpp.html", null ],
-    [ "FooDraw2.hpp", "_foo_draw2_8hpp.html", [
-      [ "FooDraw2", "class_foo_draw2.html", "class_foo_draw2" ]
     ] ],
     [ "GameObject.cpp", "_game_object_8cpp.html", null ],
     [ "GameObject.hpp", "_game_object_8hpp.html", [

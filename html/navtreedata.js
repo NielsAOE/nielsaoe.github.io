@@ -16,7 +16,7 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
@@ -41,8 +41,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_audio_8cpp.html",
-"class_player_pref_manager.html#a083901a3d3c8e0f10b4ab0046e62008e",
-"picojson_8h.html#a503e08234fb7234faecc7041b404efe7"
+"class_player_pref_manager.html#a3cae3ed1d030157c8323c2fb427cc07f",
+"structpicojson_1_1last__error__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

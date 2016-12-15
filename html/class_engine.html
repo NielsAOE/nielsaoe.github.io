@@ -93,13 +93,14 @@ $(document).ready(function(){initNavTree('class_engine.html','');});
 <div class="dynheader">
 Collaboration diagram for Engine:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_engine__coll__graph.svg" width="196" height="379"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><img src="class_engine__coll__graph.png" border="0" usemap="#_engine_coll__map" alt="Collaboration graph"/></div>
+<map name="_engine_coll__map" id="_engine_coll__map">
+<area shape="rect" id="node2" href="class_scene.html" title="{Scene\n||+ addGameObject()\l+ addExistingGameObject()\l+ removeGameObject()\l+ getSize()\l+ getGameObject()\l+ getAllComponent()\l+ getGameObjects()\l}" alt="" coords="5,5,191,159"/>
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac3fa208b414a5ce46dcddee7c5d9f308"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine.html#ac3fa208b414a5ce46dcddee7c5d9f308">Engine</a> (int width, int height, std::string windowTitle)</td></tr>
-<tr class="separator:ac3fa208b414a5ce46dcddee7c5d9f308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7acc08d07a4abd266a81b1be981b6c47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine.html#a7acc08d07a4abd266a81b1be981b6c47">loadScene</a> (std::string fileName)</td></tr>
 <tr class="separator:a7acc08d07a4abd266a81b1be981b6c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8705f4405cc428e3d67b7c9e94ec0dd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine.html#a8705f4405cc428e3d67b7c9e94ec0dd3">initializeImGui</a> () const</td></tr>
@@ -123,46 +124,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab604457df2b20a09df2d9052328771cd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_sprite.html">Sprite</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_engine.html#ab604457df2b20a09df2d9052328771cd">sprites</a></td></tr>
 <tr class="separator:ab604457df2b20a09df2d9052328771cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac3fa208b414a5ce46dcddee7c5d9f308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fa208b414a5ce46dcddee7c5d9f308">&sect;&nbsp;</a></span>Engine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Engine::Engine </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>windowTitle</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_engine_ac3fa208b414a5ce46dcddee7c5d9f308_icgraph.svg" width="291" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8705f4405cc428e3d67b7c9e94ec0dd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8705f4405cc428e3d67b7c9e94ec0dd3">&sect;&nbsp;</a></span>initializeImGui()</h2>
@@ -178,6 +139,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initializes ImGui. </p>
 
 </div>
 </div>
@@ -220,11 +182,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_engine_a63dbe7243f02b5d8880e0a972d916029_cgraph.svg" width="291" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<p>The <a class="el" href="class_engine.html">Engine</a> singleton. If given no parameters the first time it is used, it will create an <a class="el" href="class_engine.html">Engine</a> with default parameters, int width = 640, int height = 480, std::string windowTitle = "Game" </p><dl class="section return"><dt>Returns</dt><dd>The singleton instance of <a class="el" href="class_engine.html">Engine</a>. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>The width of the game window. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the game window. </td></tr>
+    <tr><td class="paramname">windowTitle</td><td>The title of the game window. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -243,7 +209,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Loads the scene from the specified json-file by creating game objects for each json boject </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Loads the scene from the specified json-file by creating game objects for each json object </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fileName</td><td>The file path to the json-file </td></tr>
   </table>
@@ -252,7 +218,15 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_engine_a7acc08d07a4abd266a81b1be981b6c47_cgraph.svg" width="683" height="159"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><img src="class_engine_a7acc08d07a4abd266a81b1be981b6c47_cgraph.png" border="0" usemap="#class_engine_a7acc08d07a4abd266a81b1be981b6c47_cgraph" alt=""/></div>
+<map name="class_engine_a7acc08d07a4abd266a81b1be981b6c47_cgraph" id="class_engine_a7acc08d07a4abd266a81b1be981b6c47_cgraph">
+<area shape="rect" id="node2" href="class_scene_parser.html#a3f69f475dee046264762e618e70b78e6" title="SceneParser::parseFile" alt="" coords="202,29,362,55"/>
+<area shape="rect" id="node6" href="class_component.html#abed36db99f1ee0ba84a5fb8485e17428" title="Component::getGameObject" alt="" coords="187,79,378,104"/>
+<area shape="rect" id="node7" href="class_game_object.html#aa84b88e86847087180fba0270a0d63ff" title="GameObject::getComponent" alt="" coords="187,128,378,153"/>
+<area shape="rect" id="node3" href="_scene_parser_8cpp.html#a0a3abae35f7aec2cb39e7e1c7eba5ea0" title="to_vec4" alt="" coords="426,5,494,31"/>
+<area shape="rect" id="node5" href="_scene_parser_8cpp.html#aebf61d8c060020f4498f29f7ba6e85f5" title="to_vec3" alt="" coords="426,55,494,80"/>
+<area shape="rect" id="node4" href="classpicojson_1_1value.html#a6a1099de1eb4f070445dc3eadb843a92" title="picojson::value::get" alt="" coords="542,31,677,56"/>
+</map>
 </div>
 
 </div>
@@ -271,11 +245,26 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Starts the game loop. Calls Awake(), Start() and update on all scripts Updates ImGui, scripts, light sources, renders game objects and updates game physics </p>
+<p>Starts the game loop. Calls Awake(), Start() and update on all scripts Updates ImGui, <a class="el" href="class_input_manager.html">InputManager</a>, <a class="el" href="class_particle_system.html">ParticleSystem</a>, Component-s: <a class="el" href="class_scriptable.html">Scriptable</a>, <a class="el" href="class_light_source.html">LightSource</a>, <a class="el" href="class_audio_source.html">AudioSource</a>, <a class="el" href="class_rigidbody.html">Rigidbody</a>, renders GameObject-s and steps <a class="el" href="class_physics_manager.html">PhysicsManager</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_engine_a4d8066dd213a03f5420d1bf60f150ca7_cgraph.svg" width="823" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><img src="class_engine_a4d8066dd213a03f5420d1bf60f150ca7_cgraph.png" border="0" usemap="#class_engine_a4d8066dd213a03f5420d1bf60f150ca7_cgraph" alt=""/></div>
+<map name="class_engine_a4d8066dd213a03f5420d1bf60f150ca7_cgraph" id="class_engine_a4d8066dd213a03f5420d1bf60f150ca7_cgraph">
+<area shape="rect" id="node2" href="class_scriptable.html#ac144df50455795d33947a25dc3584671" title="Scriptable::Awake" alt="" coords="191,5,319,31"/>
+<area shape="rect" id="node3" href="class_scriptable.html#aa8a10c2631338aea92745a8c2acd2043" title="Scriptable::Start" alt="" coords="197,55,313,80"/>
+<area shape="rect" id="node4" href="class_input_manager.html#a53a27e2e25bec96173a4c7532515d10e" title="InputManager::Instance" alt="" coords="174,104,335,129"/>
+<area shape="rect" id="node5" href="class_scriptable.html#ad31cec14ba32f6b427ae07ef77d70094" title="Scriptable::Update" alt="" coords="189,153,320,179"/>
+<area shape="rect" id="node6" href="class_light_source.html#a0f8518d503777487a7fd24e0340ec105" title="LightSource::update" alt="" coords="184,203,325,228"/>
+<area shape="rect" id="node7" href="class_renderer.html#a9a0a5f207e3d9f60c6372a9c79b25df9" title="Renderer::draw" alt="" coords="198,252,311,277"/>
+<area shape="rect" id="node10" href="class_physics_manager.html#a8b62daf8ec0ecdfbcccaeffc55a2f7ff" title="PhysicsManager::Instance" alt="" coords="166,301,344,327"/>
+<area shape="rect" id="node11" href="class_particle_system.html#a4d39a1798ee1756505734179e07a918a" title="ParticleSystem::emit" alt="" coords="183,351,326,376"/>
+<area shape="rect" id="node12" href="class_particle_system.html#ae5adeb45ba8319d18c699abac92896df" title="ParticleSystem::GetEmitMethod" alt="" coords="150,400,360,425"/>
+<area shape="rect" id="node13" href="class_particle_system.html#a166fd86f020b6024d7d42723762d7cb2" title="ParticleSystem::update" alt="" coords="175,449,334,475"/>
+<area shape="rect" id="node14" href="class_particle_system.html#af2ec9e0fe49695569a9524f6a2238e6f" title="ParticleSystem::render" alt="" coords="177,499,333,524"/>
+<area shape="rect" id="node8" href="class_transform.html#a35e627aa09604bf3a81f4c07d28205f3" title="Transform::globalTransform" alt="" coords="408,252,593,277"/>
+<area shape="rect" id="node9" href="class_transform.html#a8b85abc03488f58bef8bb78df77c1689" title="Transform::localTransform" alt="" coords="641,252,817,277"/>
+</map>
 </div>
 
 </div>
@@ -292,6 +281,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Toggles <a class="el" href="class_debug_draw.html">DebugDraw</a> on and off for drawing <a class="el" href="class_rigidbody.html">Rigidbody</a> fixtures. </p>
 
 </div>
 </div>
@@ -306,6 +296,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The scene containing all <a class="el" href="class_game_object.html">GameObject</a> s. </p>
 
 </div>
 </div>
@@ -320,6 +311,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The <a class="el" href="class_sprite.html">Sprite</a> s loaded into the <a class="el" href="class_engine.html">Engine</a>. </p>
 
 </div>
 </div>
@@ -334,6 +326,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The application window. </p>
 
 </div>
 </div>

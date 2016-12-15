@@ -2,7 +2,6 @@ var class_audio_source =
 [
     [ "~AudioSource", "class_audio_source.html#a4d4b2be34ec676bf01d1ca1784f79a07", null ],
     [ "AudioSource", "class_audio_source.html#ab0435f060f837b69107e5c3bb4eeff33", null ],
-    [ "AddClip", "class_audio_source.html#a5565cd9ebe4f92bcb1d129f32484c36f", null ],
     [ "PlayClip", "class_audio_source.html#ab6bb892caf1fd0d5bc50e070d2b85dfa", null ],
     [ "SetAudioPosition", "class_audio_source.html#ae6b988b7b4e840c7ca8223643b9437dd", null ],
     [ "SetClip", "class_audio_source.html#adbc2b433741a1c998eb529e60e16a900", null ],

@@ -6,7 +6,7 @@ var hierarchy =
       [ "PhysicsManager", "class_physics_manager.html", null ]
     ] ],
     [ "b2Draw", null, [
-      [ "FooDraw2", "class_foo_draw2.html", null ]
+      [ "DebugDraw", "class_debug_draw.html", null ]
     ] ],
     [ "CameraHandler", "class_camera_handler.html", null ],
     [ "Component", "class_component.html", [
@@ -18,7 +18,6 @@ var hierarchy =
       [ "Scriptable", "class_scriptable.html", [
         [ "ParticleController", "class_particle_controller.html", null ]
       ] ],
-      [ "Scriptable", "class_scriptable.html", null ],
       [ "Transform", "class_transform.html", null ]
     ] ],
     [ "picojson::default_parse_context", "classpicojson_1_1default__parse__context.html", null ],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['foodraw2',['FooDraw2',['../class_foo_draw2.html',1,'']]]
+  ['gameobject',['GameObject',['../class_game_object.html',1,'']]],
+  ['gameobjectdescriptor',['GameObjectDescriptor',['../class_game_object_descriptor.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['last_5ferror_5ft',['last_error_t',['../structpicojson_1_1last__error__t.html',1,'picojson']]],
-  ['lightsource',['LightSource',['../class_light_source.html',1,'']]]
+  ['null',['null',['../structpicojson_1_1null.html',1,'picojson']]],
+  ['null_5fparse_5fcontext',['null_parse_context',['../classpicojson_1_1null__parse__context.html',1,'picojson']]]
 ];
