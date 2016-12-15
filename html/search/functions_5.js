@@ -11,6 +11,7 @@ var searchData=
   ['getemitmethod',['GetEmitMethod',['../class_particle_system.html#ae5adeb45ba8319d18c699abac92896df',1,'ParticleSystem']]],
   ['getgameobject',['getGameObject',['../class_component.html#abed36db99f1ee0ba84a5fb8485e17428',1,'Component::getGameObject()'],['../class_scene.html#a39f58dbc46780a00151b415959bb46cf',1,'Scene::getGameObject()']]],
   ['getgameobjects',['getGameObjects',['../class_scene.html#a225683dff787477589bd0ba76c500f76',1,'Scene']]],
+  ['getid',['getID',['../class_game_object.html#add964e473761c04f3406efb37d23b37a',1,'GameObject']]],
   ['getint',['GetInt',['../class_player_pref_manager.html#a083901a3d3c8e0f10b4ab0046e62008e',1,'PlayerPrefManager']]],
   ['getname',['getName',['../class_component.html#abf0626b6aea5c7054234f339edcbac28',1,'Component::getName()'],['../class_game_object.html#a7a7cc496716e8c8453bd0bb954f2a7ee',1,'GameObject::getName()']]],
   ['getsize',['getSize',['../class_scene.html#a97780dbb825e92c62b02623fe1e297fa',1,'Scene']]],

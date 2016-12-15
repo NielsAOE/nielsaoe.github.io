@@ -1,0 +1,4 @@
+<map id="Engine::CountObjectsUp" name="Engine::CountObjectsUp">
+<area shape="rect" id="node2" href="$class_scene.html#abf41478c6b60d63bc3b2d3a01a0614d4" title="Scene::addGameObject" alt="" coords="245,5,408,31"/>
+<area shape="rect" id="node3" href="$class_scene.html#a9e0e66d75a6ebb10c6a371e9de47fff7" title="Scene::addExistingGameObject" alt="" coords="221,55,432,80"/>
+</map>

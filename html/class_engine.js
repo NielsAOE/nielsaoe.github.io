@@ -1,5 +1,7 @@
 var class_engine =
 [
+    [ "CountObjectsDown", "class_engine.html#affd32740921bf7e26bd575cd17d57a85", null ],
+    [ "CountObjectsUp", "class_engine.html#ab34fda9195bcfb350bdf9ba906e228e9", null ],
     [ "initializeImGui", "class_engine.html#a8705f4405cc428e3d67b7c9e94ec0dd3", null ],
     [ "loadScene", "class_engine.html#a7acc08d07a4abd266a81b1be981b6c47", null ],
     [ "start", "class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7", null ],

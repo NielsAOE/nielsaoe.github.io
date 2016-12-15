@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"class_player_pref_manager.html#a23a01428428d0783e9f1e606a83903cf":[1,0,15,12],
+"class_player_pref_manager.html#a36eae7cc60015576ba1406daa4512345":[1,0,15,3],
+"class_player_pref_manager.html#a393669e405aa8310c8425ed03e2b1763":[1,0,15,15],
 "class_player_pref_manager.html#a3cae3ed1d030157c8323c2fb427cc07f":[1,0,15,8],
 "class_player_pref_manager.html#a47b56d7317f5fbe7983492507e1254c6":[1,0,15,0],
 "class_player_pref_manager.html#a5757d9fe8b8c10dca352969b47aabb8a":[1,0,15,10],
@@ -199,8 +202,8 @@ var NAVTREEINDEX1 =
 "namespacemembers_eval.html":[0,1,3],
 "namespacemembers_func.html":[0,1,1],
 "namespacemembers_type.html":[0,1,2],
-"namespacepicojson.html":[0,0,0],
 "namespacepicojson.html":[1,0,0],
+"namespacepicojson.html":[0,0,0],
 "namespaces.html":[0,0],
 "namespacestd.html":[0,0,1],
 "pages.html":[],
@@ -208,8 +211,8 @@ var NAVTREEINDEX1 =
 "picojson_8h.html#a01c0a3f35d42282ba913375737c8e259":[2,0,28,34],
 "picojson_8h.html#a05316c2614f3e7a4559ce1d1003eb051":[2,0,28,36],
 "picojson_8h.html#a0746b522f9bb442b3c2994dfd63a9d02":[2,0,28,18],
-"picojson_8h.html#a0831cc4953114e0949ccd6e2b8478e99":[2,0,28,13],
 "picojson_8h.html#a0831cc4953114e0949ccd6e2b8478e99":[2,0,28,12],
+"picojson_8h.html#a0831cc4953114e0949ccd6e2b8478e99":[2,0,28,13],
 "picojson_8h.html#a11130e017d868857aeb016f5e3d29008":[2,0,28,51],
 "picojson_8h.html#a1ba78f161e46341e0c2fd705ff8b0210":[2,0,28,42],
 "picojson_8h.html#a21621c03c9c8c83dcf5bc604d1cafdf6":[2,0,28,48],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "picojson_8h.html#ae000f94f3fb356f344328397f609928d":[2,0,28,44],
 "picojson_8h.html#ae3fd37cd4ad93e8b91a1dd552487eec4a2aee14a2b66d94b58c64c66edd8ed9b1":[2,0,28,32],
 "picojson_8h.html#ae46de1e9659b427ea359e7fc00dd3ff1":[2,0,28,43],
-"picojson_8h.html#aed024a6a1c8d8982a38c4a7fcefde221":[2,0,28,33],
-"picojson_8h.html#af6a3a9b85d5640d11e7c94ae3c7716d7":[2,0,28,20],
-"picojson_8h.html#af6b970af4f337ef1075f08f17784a23a":[2,0,28,19],
-"picojson_8h_source.html":[2,0,28]
+"picojson_8h.html#aed024a6a1c8d8982a38c4a7fcefde221":[2,0,28,33]
 };

@@ -1,0 +1,4 @@
+<map id="Scene::removeGameObject" name="Scene::removeGameObject">
+<area shape="rect" id="node2" href="$class_engine.html#a63dbe7243f02b5d8880e0a972d916029" title="Engine::Instance" alt="" coords="271,5,392,31"/>
+<area shape="rect" id="node3" href="$class_engine.html#affd32740921bf7e26bd575cd17d57a85" title="Engine::CountObjectsDown" alt="" coords="239,55,424,80"/>
+</map>

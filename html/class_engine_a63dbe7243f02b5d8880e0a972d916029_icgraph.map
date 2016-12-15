@@ -1,0 +1,5 @@
+<map id="Engine::Instance" name="Engine::Instance">
+<area shape="rect" id="node2" href="$class_scene.html#abf41478c6b60d63bc3b2d3a01a0614d4" title="Scene::addGameObject" alt="" coords="197,5,361,31"/>
+<area shape="rect" id="node3" href="$class_scene.html#a9e0e66d75a6ebb10c6a371e9de47fff7" title="Scene::addExistingGameObject" alt="" coords="174,55,384,80"/>
+<area shape="rect" id="node4" href="$class_scene.html#aad5427fcdd330f65dc4e7b1e627afce4" title="Scene::removeGameObject" alt="" coords="186,104,372,129"/>
+</map>
