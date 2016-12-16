@@ -8,182 +8,182 @@
  viewBox="0.00 0.00 617.01 397.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 393)">
 <title>Engine::start</title>
-<!-- Node16 -->
-<g id="node1" class="node"><title>Node16</title>
+<!-- Node22 -->
+<g id="node1" class="node"><title>Node22</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-185.5 0,-203.5 72.1426,-203.5 72.1426,-185.5 0,-185.5"/>
 <text text-anchor="middle" x="36.0713" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">Engine::start</text>
 </g>
-<!-- Node17 -->
-<g id="node2" class="node"><title>Node17</title>
+<!-- Node23 -->
+<g id="node2" class="node"><title>Node23</title>
 <g id="a_node2"><a xlink:href="class_scriptable.html#ac144df50455795d33947a25dc3584671" target="_top" xlink:title="Scriptable::Awake">
 <polygon fill="none" stroke="black" points="139.068,-370.5 139.068,-388.5 234.931,-388.5 234.931,-370.5 139.068,-370.5"/>
 <text text-anchor="middle" x="187" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scriptable::Awake</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge1" class="edge"><title>Node16&#45;&gt;Node17</title>
+<!-- Node22&#45;&gt;Node23 -->
+<g id="edge1" class="edge"><title>Node22&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M38.112,-203.8C41.8076,-232.218 56.9575,-318.578 108.143,-361.5 114.197,-366.577 121.411,-370.286 128.969,-372.984"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.081,-376.372 138.665,-375.888 130.09,-369.666 128.081,-376.372"/>
 </g>
-<!-- Node18 -->
-<g id="node3" class="node"><title>Node18</title>
+<!-- Node24 -->
+<g id="node3" class="node"><title>Node24</title>
 <g id="a_node3"><a xlink:href="class_scriptable.html#aa8a10c2631338aea92745a8c2acd2043" target="_top" xlink:title="Scriptable::Start">
 <polygon fill="none" stroke="black" points="143.428,-333.5 143.428,-351.5 230.571,-351.5 230.571,-333.5 143.428,-333.5"/>
 <text text-anchor="middle" x="187" y="-339.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scriptable::Start</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node18 -->
-<g id="edge2" class="edge"><title>Node16&#45;&gt;Node18</title>
+<!-- Node22&#45;&gt;Node24 -->
+<g id="edge2" class="edge"><title>Node22&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M39.3141,-203.776C45.6304,-227.815 65.9231,-292.481 108.143,-324.5 115.53,-330.102 124.366,-334.006 133.391,-336.717"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.644,-340.138 143.198,-339.214 134.371,-333.355 132.644,-340.138"/>
 </g>
-<!-- Node19 -->
-<g id="node4" class="node"><title>Node19</title>
+<!-- Node25 -->
+<g id="node4" class="node"><title>Node25</title>
 <g id="a_node4"><a xlink:href="class_input_manager.html#a53a27e2e25bec96173a4c7532515d10e" target="_top" xlink:title="InputManager::Instance">
 <polygon fill="none" stroke="black" points="126.465,-296.5 126.465,-314.5 247.534,-314.5 247.534,-296.5 126.465,-296.5"/>
 <text text-anchor="middle" x="187" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputManager::Instance</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node19 -->
-<g id="edge3" class="edge"><title>Node16&#45;&gt;Node19</title>
+<!-- Node22&#45;&gt;Node25 -->
+<g id="edge3" class="edge"><title>Node22&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M41.2952,-203.585C50.548,-222.428 74.4989,-265.805 108.143,-287.5 111.088,-289.4 114.211,-291.1 117.447,-292.621"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="116.233,-295.906 126.814,-296.452 118.883,-289.427 116.233,-295.906"/>
 </g>
-<!-- Node20 -->
-<g id="node5" class="node"><title>Node20</title>
+<!-- Node26 -->
+<g id="node5" class="node"><title>Node26</title>
 <g id="a_node5"><a xlink:href="class_scriptable.html#ad31cec14ba32f6b427ae07ef77d70094" target="_top" xlink:title="Scriptable::Update">
 <polygon fill="none" stroke="black" points="137.864,-259.5 137.864,-277.5 236.135,-277.5 236.135,-259.5 137.864,-259.5"/>
 <text text-anchor="middle" x="187" y="-265.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scriptable::Update</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node20 -->
-<g id="edge4" class="edge"><title>Node16&#45;&gt;Node20</title>
+<!-- Node22&#45;&gt;Node26 -->
+<g id="edge4" class="edge"><title>Node22&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M45.8229,-203.56C58.4195,-216.057 82.9315,-238.406 108.143,-250.5 114.278,-253.443 120.92,-255.919 127.649,-257.999"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="126.949,-261.438 137.523,-260.771 128.841,-254.698 126.949,-261.438"/>
 </g>
-<!-- Node21 -->
-<g id="node6" class="node"><title>Node21</title>
+<!-- Node27 -->
+<g id="node6" class="node"><title>Node27</title>
 <g id="a_node6"><a xlink:href="class_light_source.html#a0f8518d503777487a7fd24e0340ec105" target="_top" xlink:title="LightSource::update">
 <polygon fill="none" stroke="black" points="134.244,-222.5 134.244,-240.5 239.755,-240.5 239.755,-222.5 134.244,-222.5"/>
 <text text-anchor="middle" x="187" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">LightSource::update</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node21 -->
-<g id="edge5" class="edge"><title>Node16&#45;&gt;Node21</title>
+<!-- Node22&#45;&gt;Node27 -->
+<g id="edge5" class="edge"><title>Node22&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M69.9179,-203.531C81.9226,-206.766 95.6255,-210.381 108.143,-213.5 117.04,-215.717 126.533,-217.989 135.72,-220.14"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="134.995,-223.565 145.528,-222.418 136.579,-216.746 134.995,-223.565"/>
 </g>
-<!-- Node22 -->
-<g id="node7" class="node"><title>Node22</title>
+<!-- Node28 -->
+<g id="node7" class="node"><title>Node28</title>
 <g id="a_node7"><a xlink:href="class_renderer.html#a9a0a5f207e3d9f60c6372a9c79b25df9" target="_top" xlink:title="Renderer::draw">
 <polygon fill="none" stroke="black" points="144.539,-185.5 144.539,-203.5 229.46,-203.5 229.46,-185.5 144.539,-185.5"/>
 <text text-anchor="middle" x="187" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">Renderer::draw</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node22 -->
-<g id="edge6" class="edge"><title>Node16&#45;&gt;Node22</title>
+<!-- Node22&#45;&gt;Node28 -->
+<g id="edge6" class="edge"><title>Node22&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M72.3652,-194.5C90.8347,-194.5 113.799,-194.5 134.239,-194.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="134.349,-198 144.349,-194.5 134.349,-191 134.349,-198"/>
 </g>
-<!-- Node25 -->
-<g id="node10" class="node"><title>Node25</title>
+<!-- Node31 -->
+<g id="node10" class="node"><title>Node31</title>
 <g id="a_node10"><a xlink:href="class_physics_manager.html#a8b62daf8ec0ecdfbcccaeffc55a2f7ff" target="_top" xlink:title="PhysicsManager::Instance">
 <polygon fill="none" stroke="black" points="120.359,-148.5 120.359,-166.5 253.64,-166.5 253.64,-148.5 120.359,-148.5"/>
 <text text-anchor="middle" x="187" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">PhysicsManager::Instance</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node25 -->
-<g id="edge10" class="edge"><title>Node16&#45;&gt;Node25</title>
+<!-- Node22&#45;&gt;Node31 -->
+<g id="edge10" class="edge"><title>Node22&#45;&gt;Node31</title>
 <path fill="none" stroke="midnightblue" d="M72.4836,-185.467C83.865,-182.581 96.5315,-179.387 108.143,-176.5 118.067,-174.032 128.71,-171.415 138.842,-168.938"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="139.872,-172.29 148.757,-166.519 138.213,-165.489 139.872,-172.29"/>
 </g>
-<!-- Node26 -->
-<g id="node11" class="node"><title>Node26</title>
+<!-- Node32 -->
+<g id="node11" class="node"><title>Node32</title>
 <g id="a_node11"><a xlink:href="class_particle_system.html#a4d39a1798ee1756505734179e07a918a" target="_top" xlink:title="ParticleSystem::emit">
 <polygon fill="none" stroke="black" points="133.433,-111.5 133.433,-129.5 240.566,-129.5 240.566,-111.5 133.433,-111.5"/>
 <text text-anchor="middle" x="187" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::emit</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node26 -->
-<g id="edge11" class="edge"><title>Node16&#45;&gt;Node26</title>
+<!-- Node22&#45;&gt;Node32 -->
+<g id="edge11" class="edge"><title>Node22&#45;&gt;Node32</title>
 <path fill="none" stroke="midnightblue" d="M46.3077,-185.235C59.0891,-172.945 83.4046,-151.419 108.143,-139.5 113.736,-136.805 119.745,-134.472 125.855,-132.457"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="126.933,-135.788 135.495,-129.546 124.91,-129.087 126.933,-135.788"/>
 </g>
-<!-- Node27 -->
-<g id="node12" class="node"><title>Node27</title>
+<!-- Node33 -->
+<g id="node12" class="node"><title>Node33</title>
 <g id="a_node12"><a xlink:href="class_particle_system.html#ae5adeb45ba8319d18c699abac92896df" target="_top" xlink:title="ParticleSystem::GetEmitMethod">
 <polygon fill="none" stroke="black" points="108.143,-74.5 108.143,-92.5 265.856,-92.5 265.856,-74.5 108.143,-74.5"/>
 <text text-anchor="middle" x="187" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::GetEmitMethod</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node27 -->
-<g id="edge12" class="edge"><title>Node16&#45;&gt;Node27</title>
+<!-- Node22&#45;&gt;Node33 -->
+<g id="edge12" class="edge"><title>Node22&#45;&gt;Node33</title>
 <path fill="none" stroke="midnightblue" d="M41.4869,-185.26C50.9327,-166.532 74.9709,-124.053 108.143,-102.5 111.752,-100.155 115.626,-98.0988 119.648,-96.2966"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="121.213,-99.4425 129.247,-92.535 118.659,-92.9251 121.213,-99.4425"/>
 </g>
-<!-- Node28 -->
-<g id="node13" class="node"><title>Node28</title>
+<!-- Node34 -->
+<g id="node13" class="node"><title>Node34</title>
 <g id="a_node13"><a xlink:href="class_particle_system.html#a166fd86f020b6024d7d42723762d7cb2" target="_top" xlink:title="ParticleSystem::update">
 <polygon fill="none" stroke="black" points="127.586,-37.5 127.586,-55.5 246.413,-55.5 246.413,-37.5 127.586,-37.5"/>
 <text text-anchor="middle" x="187" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::update</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node28 -->
-<g id="edge13" class="edge"><title>Node16&#45;&gt;Node28</title>
+<!-- Node22&#45;&gt;Node34 -->
+<g id="edge13" class="edge"><title>Node22&#45;&gt;Node34</title>
 <path fill="none" stroke="midnightblue" d="M39.3589,-185.323C45.7835,-161.536 66.315,-97.5156 108.143,-65.5 111.284,-63.0951 114.689,-60.9901 118.259,-59.1479"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="119.695,-62.3402 127.419,-55.0893 116.859,-55.9403 119.695,-62.3402"/>
 </g>
-<!-- Node29 -->
-<g id="node14" class="node"><title>Node29</title>
+<!-- Node35 -->
+<g id="node14" class="node"><title>Node35</title>
 <g id="a_node14"><a xlink:href="class_particle_system.html#af2ec9e0fe49695569a9524f6a2238e6f" target="_top" xlink:title="ParticleSystem::render">
 <polygon fill="none" stroke="black" points="128.426,-0.5 128.426,-18.5 245.573,-18.5 245.573,-0.5 128.426,-0.5"/>
 <text text-anchor="middle" x="187" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::render</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node29 -->
-<g id="edge14" class="edge"><title>Node16&#45;&gt;Node29</title>
+<!-- Node22&#45;&gt;Node35 -->
+<g id="edge14" class="edge"><title>Node22&#45;&gt;Node35</title>
 <path fill="none" stroke="midnightblue" d="M38.1539,-185.281C41.9703,-157.108 57.4308,-71.4585 108.143,-28.5 111.427,-25.7177 115.055,-23.3304 118.895,-21.2833"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="120.5,-24.3987 128.178,-17.0981 117.623,-18.0172 120.5,-24.3987"/>
 </g>
-<!-- Node23 -->
-<g id="node8" class="node"><title>Node23</title>
+<!-- Node29 -->
+<g id="node8" class="node"><title>Node29</title>
 <g id="a_node8"><a xlink:href="class_transform.html#a35e627aa09604bf3a81f4c07d28205f3" target="_top" xlink:title="Transform::globalTransform">
 <polygon fill="none" stroke="black" points="301.856,-185.5 301.856,-203.5 440.493,-203.5 440.493,-185.5 301.856,-185.5"/>
 <text text-anchor="middle" x="371.175" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">Transform::globalTransform</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge7" class="edge"><title>Node22&#45;&gt;Node23</title>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge7" class="edge"><title>Node28&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M229.794,-194.5C248.203,-194.5 270.457,-194.5 291.766,-194.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="291.8,-198 301.8,-194.5 291.8,-191 291.8,-198"/>
 </g>
-<!-- Node23&#45;&gt;Node23 -->
-<g id="edge8" class="edge"><title>Node23&#45;&gt;Node23</title>
+<!-- Node29&#45;&gt;Node29 -->
+<g id="edge8" class="edge"><title>Node29&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M345.844,-203.513C331.852,-212.322 340.296,-222 371.175,-222 392.887,-222 403.507,-217.215 403.035,-211.312"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="405.608,-208.934 396.505,-203.513 400.241,-213.428 405.608,-208.934"/>
 </g>
-<!-- Node24 -->
-<g id="node9" class="node"><title>Node24</title>
+<!-- Node30 -->
+<g id="node9" class="node"><title>Node30</title>
 <g id="a_node9"><a xlink:href="class_transform.html#a8b85abc03488f58bef8bb78df77c1689" target="_top" xlink:title="Transform::localTransform">
 <polygon fill="none" stroke="black" points="476.493,-185.5 476.493,-203.5 609.007,-203.5 609.007,-185.5 476.493,-185.5"/>
 <text text-anchor="middle" x="542.75" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">Transform::localTransform</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
-<g id="edge9" class="edge"><title>Node23&#45;&gt;Node24</title>
+<!-- Node29&#45;&gt;Node30 -->
+<g id="edge9" class="edge"><title>Node29&#45;&gt;Node30</title>
 <path fill="none" stroke="midnightblue" d="M440.659,-194.5C449.024,-194.5 457.608,-194.5 466.071,-194.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="466.309,-198 476.309,-194.5 466.309,-191 466.309,-198"/>
 </g>

@@ -8,86 +8,86 @@
  viewBox="0.00 0.00 302.54 212.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 208)">
 <title>AudioSource::Instance</title>
-<!-- Node8 -->
-<g id="node1" class="node"><title>Node8</title>
+<!-- Node6 -->
+<g id="node1" class="node"><title>Node6</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-92.5 0,-110.5 116.62,-110.5 116.62,-92.5 0,-92.5"/>
 <text text-anchor="middle" x="58.3101" y="-98.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::Instance</text>
 </g>
-<!-- Node9 -->
-<g id="node2" class="node"><title>Node9</title>
+<!-- Node7 -->
+<g id="node2" class="node"><title>Node7</title>
 <g id="a_node2"><a xlink:href="class_audio.html#a69407241eefda94a7440e6aac9b5067c" target="_top" xlink:title="Audio::Audio">
 <polygon fill="none" stroke="black" points="187.225,-185.5 187.225,-203.5 259.934,-203.5 259.934,-185.5 187.225,-185.5"/>
 <text text-anchor="middle" x="223.579" y="-191.5" font-family="Helvetica,sans-Serif" font-size="10.00">Audio::Audio</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge1" class="edge"><title>Node8&#45;&gt;Node9</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge1" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M75.0262,-117.713C92.4585,-134.779 122.164,-161.242 152.62,-176.5 163.272,-181.837 175.653,-185.691 187.012,-188.429"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="77.4673,-115.204 67.9219,-110.607 72.517,-120.154 77.4673,-115.204"/>
 </g>
-<!-- Node10 -->
-<g id="node3" class="node"><title>Node10</title>
+<!-- Node8 -->
+<g id="node3" class="node"><title>Node8</title>
 <g id="a_node3"><a xlink:href="class_audio_source.html#a4d4b2be34ec676bf01d1ca1784f79a07" target="_top" xlink:title="AudioSource::~AudioSource">
 <polygon fill="none" stroke="black" points="152.62,-148.5 152.62,-166.5 294.538,-166.5 294.538,-148.5 152.62,-148.5"/>
 <text text-anchor="middle" x="223.579" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::~AudioSource</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge2" class="edge"><title>Node8&#45;&gt;Node10</title>
+<!-- Node6&#45;&gt;Node8 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M88.6034,-114.618C106.799,-122.468 130.8,-132.286 152.62,-139.5 162.503,-142.767 173.332,-145.808 183.454,-148.426"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="89.9669,-111.395 79.4017,-110.604 87.1675,-117.811 89.9669,-111.395"/>
 </g>
-<!-- Node11 -->
-<g id="node4" class="node"><title>Node11</title>
+<!-- Node9 -->
+<g id="node4" class="node"><title>Node9</title>
 <g id="a_node4"><a xlink:href="class_audio_source.html#a6d1aa7d3f704a9264b2877be2a99e9a1" target="_top" xlink:title="AudioSource::start">
 <polygon fill="none" stroke="black" points="174.446,-111.5 174.446,-129.5 272.712,-129.5 272.712,-111.5 174.446,-111.5"/>
 <text text-anchor="middle" x="223.579" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::start</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node11 -->
-<g id="edge3" class="edge"><title>Node8&#45;&gt;Node11</title>
+<!-- Node6&#45;&gt;Node9 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M127.174,-109.397C143.046,-111.244 159.633,-113.175 174.441,-114.898"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="127.21,-105.878 116.873,-108.199 126.401,-112.831 127.21,-105.878"/>
 </g>
-<!-- Node12 -->
-<g id="node5" class="node"><title>Node12</title>
+<!-- Node10 -->
+<g id="node5" class="node"><title>Node10</title>
 <g id="a_node5"><a xlink:href="class_audio_source.html#adbc2b433741a1c998eb529e60e16a900" target="_top" xlink:title="AudioSource::SetClip">
 <polygon fill="none" stroke="black" points="168.052,-74.5 168.052,-92.5 279.106,-92.5 279.106,-74.5 168.052,-74.5"/>
 <text text-anchor="middle" x="223.579" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::SetClip</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node12 -->
-<g id="edge4" class="edge"><title>Node8&#45;&gt;Node12</title>
+<!-- Node6&#45;&gt;Node10 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M127.154,-94.0204C140.767,-92.5196 154.906,-90.9608 167.999,-89.5173"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="126.429,-90.579 116.873,-95.1539 127.196,-97.5369 126.429,-90.579"/>
 </g>
-<!-- Node13 -->
-<g id="node6" class="node"><title>Node13</title>
+<!-- Node11 -->
+<g id="node6" class="node"><title>Node11</title>
 <g id="a_node6"><a xlink:href="class_audio_source.html#ab6bb892caf1fd0d5bc50e070d2b85dfa" target="_top" xlink:title="AudioSource::PlayClip">
 <polygon fill="none" stroke="black" points="165.831,-37.5 165.831,-55.5 281.328,-55.5 281.328,-37.5 165.831,-37.5"/>
 <text text-anchor="middle" x="223.579" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::PlayClip</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node13 -->
-<g id="edge5" class="edge"><title>Node8&#45;&gt;Node13</title>
+<!-- Node6&#45;&gt;Node11 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M90.3766,-88.59C108.389,-81.3383 131.598,-72.3896 152.62,-65.5 163.503,-61.9332 175.489,-58.5013 186.419,-55.5592"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="88.8978,-85.413 80.9512,-92.4203 91.5332,-91.8979 88.8978,-85.413"/>
 </g>
-<!-- Node14 -->
-<g id="node7" class="node"><title>Node14</title>
+<!-- Node12 -->
+<g id="node7" class="node"><title>Node12</title>
 <g id="a_node7"><a xlink:href="class_audio_source.html#acb9ed5f614745f447fe35745f638be93" target="_top" xlink:title="AudioSource::update">
 <polygon fill="none" stroke="black" points="168.877,-0.5 168.877,-18.5 278.281,-18.5 278.281,-0.5 168.877,-0.5"/>
 <text text-anchor="middle" x="223.579" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">AudioSource::update</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node14 -->
-<g id="edge6" class="edge"><title>Node8&#45;&gt;Node14</title>
+<!-- Node6&#45;&gt;Node12 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M75.9069,-85.1047C93.5364,-68.5592 122.911,-43.3875 152.62,-28.5 160.722,-24.4403 169.8,-21.1613 178.664,-18.5449"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="73.0411,-83.0036 68.2459,-92.4513 77.8861,-88.056 73.0411,-83.0036"/>
 </g>

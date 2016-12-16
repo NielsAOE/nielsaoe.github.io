@@ -41,7 +41,7 @@
 </g>
 <!-- Node8 -->
 <g id="node4" class="node"><title>Node8</title>
-<g id="a_node4"><a xlink:href="class_camera_handler.html#a45dc996a15d52ba92d64df52e86e8306" target="_top" xlink:title="CameraHandler::UpdateCamera">
+<g id="a_node4"><a xlink:href="class_camera_handler.html#a251a11a9a678b6b6c2871be6abd7d9af" target="_top" xlink:title="CameraHandler::UpdateCamera">
 <polygon fill="none" stroke="black" points="179.29,-111.5 179.29,-129.5 339.245,-129.5 339.245,-111.5 179.29,-111.5"/>
 <text text-anchor="middle" x="259.268" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">CameraHandler::UpdateCamera</text>
 </a>
