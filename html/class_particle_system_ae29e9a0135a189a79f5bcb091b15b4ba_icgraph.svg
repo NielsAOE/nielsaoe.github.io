@@ -16,7 +16,7 @@
 </g>
 <!-- Node13 -->
 <g id="node2" class="node"><title>Node13</title>
-<g id="a_node2"><a xlink:href="class_particle_system.html#afb21fc1085d46936e20338d8e91407ac" target="_top" xlink:title="ParticleSystem::Start">
+<g id="a_node2"><a xlink:href="class_particle_system.html#a051b9f37e560deaa3af2b43a28331dd6" target="_top" xlink:title="starts the particle system with the given size and shape (box/sphere). Start must be called if a part...">
 <polygon fill="none" stroke="black" points="173.699,-5.5 173.699,-23.5 283.059,-23.5 283.059,-5.5 173.699,-5.5"/>
 <text text-anchor="middle" x="228.379" y="-11.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::Start</text>
 </a>

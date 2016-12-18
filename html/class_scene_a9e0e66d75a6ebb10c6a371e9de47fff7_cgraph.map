@@ -1,5 +1,5 @@
 <map id="Scene::addExistingGameObject" name="Scene::addExistingGameObject">
 <area shape="rect" id="node2" href="$class_game_object.html#a7a7cc496716e8c8453bd0bb954f2a7ee" title="GameObject::getName" alt="" coords="269,5,427,31"/>
 <area shape="rect" id="node3" href="$class_engine.html#a63dbe7243f02b5d8880e0a972d916029" title="Engine::Instance" alt="" coords="287,55,408,80"/>
-<area shape="rect" id="node4" href="$class_engine.html#ab34fda9195bcfb350bdf9ba906e228e9" title="Engine::CountObjectsUp" alt="" coords="264,104,432,129"/>
+<area shape="rect" id="node4" href="$class_engine.html#ab34fda9195bcfb350bdf9ba906e228e9" title="You must not use this. It is for internal logic only. " alt="" coords="264,104,432,129"/>
 </map>

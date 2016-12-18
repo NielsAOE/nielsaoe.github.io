@@ -8,21 +8,21 @@
  viewBox="0.00 0.00 269.44 27.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 23)">
 <title>Rigidbody::Setup</title>
-<!-- Node4 -->
-<g id="node1" class="node"><title>Node4</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-18.5 92.1621,-18.5 92.1621,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="46.0811" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Rigidbody::Setup</text>
 </g>
-<!-- Node5 -->
-<g id="node2" class="node"><title>Node5</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="class_physics_manager.html#a8b62daf8ec0ecdfbcccaeffc55a2f7ff" target="_top" xlink:title="PhysicsManager::Instance">
 <polygon fill="none" stroke="black" points="128.162,-0.5 128.162,-18.5 261.442,-18.5 261.442,-0.5 128.162,-0.5"/>
 <text text-anchor="middle" x="194.802" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">PhysicsManager::Instance</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge1" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M92.2994,-9.5C100.409,-9.5 109.059,-9.5 117.76,-9.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="117.967,-13.0001 127.967,-9.5 117.967,-6.0001 117.967,-13.0001"/>
 </g>

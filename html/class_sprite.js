@@ -7,5 +7,5 @@ var class_sprite =
     [ "setEnabled", "class_sprite.html#ae4a9969ca6f446476d327fbf42679e65", null ],
     [ "setName", "class_sprite.html#a96fdae52dbd16c448fd777ba055adac3", null ],
     [ "name", "class_sprite.html#af894cde6260a37570a63ffe8d3217bd2", null ],
-    [ "scale", "class_sprite.html#a8e5eae0ba00a77e6527f6a1374987efa", null ]
+    [ "positionZ", "class_sprite.html#ab629be81fda842574f56f22c9080cd79", null ]
 ];

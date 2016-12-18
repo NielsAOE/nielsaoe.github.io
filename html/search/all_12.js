@@ -9,6 +9,7 @@ var searchData=
   ['renderer',['Renderer',['../class_renderer.html',1,'Renderer'],['../class_renderer.html#aab16b9ba63fb38f2c5ea7db11dbfc1bf',1,'Renderer::Renderer()']]],
   ['renderer_2ecpp',['Renderer.cpp',['../_renderer_8cpp.html',1,'']]],
   ['renderer_2ehpp',['Renderer.hpp',['../_renderer_8hpp.html',1,'']]],
+  ['rightpressed',['rightPressed',['../class_input_manager.html#afc9d8443b76df4c718391b97b4f7bcf7',1,'InputManager']]],
   ['rigidbody',['Rigidbody',['../class_rigidbody.html',1,'Rigidbody'],['../class_rigidbody.html#a9766ab6f5b3ab9aace8d7712d4364701',1,'Rigidbody::Rigidbody()']]],
   ['rigidbody_2ecpp',['Rigidbody.cpp',['../_rigidbody_8cpp.html',1,'']]],
   ['rigidbody_2ehpp',['Rigidbody.hpp',['../_rigidbody_8hpp.html',1,'']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s',['s',['../structpicojson_1_1last__error__t.html#a270361f4321424bfd800c36607bf0411',1,'picojson::last_error_t']]],
-  ['scale',['scale',['../class_game_object_descriptor.html#a6f26b5c60cd4051ec042336503c58645',1,'GameObjectDescriptor::scale()'],['../class_sprite.html#a8e5eae0ba00a77e6527f6a1374987efa',1,'Sprite::scale()'],['../class_transform.html#acf6ab53778448fd2f2d8a367c14e7f95',1,'Transform::scale()']]],
+  ['scale',['scale',['../class_game_object_descriptor.html#a6f26b5c60cd4051ec042336503c58645',1,'GameObjectDescriptor::scale()'],['../class_transform.html#acf6ab53778448fd2f2d8a367c14e7f95',1,'Transform::scale()']]],
   ['scene',['scene',['../class_engine.html#a258c9495b64205a37d844f2428d91ede',1,'Engine']]],
   ['sevenpressed',['sevenPressed',['../class_input_manager.html#a1cb6cbb6f14cd731bf3d863ff54e5ddf',1,'InputManager']]],
   ['shader',['shader',['../class_renderer.html#a9d93016ff7f84035729beddacc48fa8c',1,'Renderer']]],

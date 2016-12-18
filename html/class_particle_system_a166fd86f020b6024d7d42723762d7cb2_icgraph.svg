@@ -8,34 +8,34 @@
  viewBox="0.00 0.00 272.19 64.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
 <title>ParticleSystem::update</title>
-<!-- Node41 -->
-<g id="node1" class="node"><title>Node41</title>
+<!-- Node39 -->
+<g id="node1" class="node"><title>Node39</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-18.5 0,-36.5 118.827,-36.5 118.827,-18.5 0,-18.5"/>
 <text text-anchor="middle" x="59.4136" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::update</text>
 </g>
-<!-- Node42 -->
-<g id="node2" class="node"><title>Node42</title>
+<!-- Node40 -->
+<g id="node2" class="node"><title>Node40</title>
 <g id="a_node2"><a xlink:href="class_engine.html#a4d8066dd213a03f5420d1bf60f150ca7" target="_top" xlink:title="Engine::start">
 <polygon fill="none" stroke="black" points="173.436,-37.5 173.436,-55.5 245.578,-55.5 245.578,-37.5 173.436,-37.5"/>
 <text text-anchor="middle" x="209.507" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">Engine::start</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node42 -->
-<g id="edge1" class="edge"><title>Node41&#45;&gt;Node42</title>
+<!-- Node39&#45;&gt;Node40 -->
+<g id="edge1" class="edge"><title>Node39&#45;&gt;Node40</title>
 <path fill="none" stroke="midnightblue" d="M128.983,-36.2973C144.371,-38.2716 160.077,-40.2866 173.423,-41.9988"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="129.308,-32.8104 118.944,-35.0093 128.417,-39.7535 129.308,-32.8104"/>
 </g>
-<!-- Node43 -->
-<g id="node3" class="node"><title>Node43</title>
-<g id="a_node3"><a xlink:href="class_particle_system.html#afb21fc1085d46936e20338d8e91407ac" target="_top" xlink:title="ParticleSystem::Start">
+<!-- Node41 -->
+<g id="node3" class="node"><title>Node41</title>
+<g id="a_node3"><a xlink:href="class_particle_system.html#a051b9f37e560deaa3af2b43a28331dd6" target="_top" xlink:title="starts the particle system with the given size and shape (box/sphere). Start must be called if a part...">
 <polygon fill="none" stroke="black" points="154.827,-0.5 154.827,-18.5 264.187,-18.5 264.187,-0.5 154.827,-0.5"/>
 <text text-anchor="middle" x="209.507" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">ParticleSystem::Start</text>
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node43 -->
-<g id="edge2" class="edge"><title>Node41&#45;&gt;Node43</title>
+<!-- Node39&#45;&gt;Node41 -->
+<g id="edge2" class="edge"><title>Node39&#45;&gt;Node41</title>
 <path fill="none" stroke="midnightblue" d="M129.006,-19.1629C137.64,-18.1135 146.374,-17.0519 154.734,-16.0358"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.449,-15.7048 118.944,-20.3859 129.293,-22.6537 128.449,-15.7048"/>
 </g>

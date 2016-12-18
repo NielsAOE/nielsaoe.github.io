@@ -15,5 +15,6 @@ var class_audio_source =
     [ "start", "class_audio_source.html#a6d1aa7d3f704a9264b2877be2a99e9a1", null ],
     [ "Stop", "class_audio_source.html#afcfa9a28255f0aac30aa218d4e293123", null ],
     [ "update", "class_audio_source.html#acb9ed5f614745f447fe35745f638be93", null ],
-    [ "GameObject", "class_audio_source.html#a00df87c957d8f7ee0fc51f07a0542f4a", null ]
+    [ "GameObject", "class_audio_source.html#a00df87c957d8f7ee0fc51f07a0542f4a", null ],
+    [ "id", "class_audio_source.html#a187a01c32c0e7eb16b1bef1aec52e400", null ]
 ];

@@ -20,12 +20,12 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="class_sprite.html" target="_top" xlink:title="{Sprite\n|+ name\l+ scale\l|+ Sprite()\l+ ~Sprite()\l+ draw()\l+ init()\l+ setName()\l+ setEnabled()\l}">
+<g id="a_node2"><a xlink:href="class_sprite.html" target="_top" xlink:title="{Sprite\n|+ name\l+ positionZ\l|+ Sprite()\l+ ~Sprite()\l+ draw()\l+ init()\l+ setName()\l+ setEnabled()\l}">
 <polygon fill="none" stroke="black" points="17.6465,-111.5 17.6465,-225.5 98.9639,-225.5 98.9639,-111.5 17.6465,-111.5"/>
 <text text-anchor="middle" x="58.3052" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">Sprite</text>
 <polyline fill="none" stroke="black" points="17.6465,-207.5 98.9639,-207.5 "/>
 <text text-anchor="start" x="25.6465" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ name</text>
-<text text-anchor="start" x="25.6465" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scale</text>
+<text text-anchor="start" x="25.6465" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ positionZ</text>
 <polyline fill="none" stroke="black" points="17.6465,-179.5 98.9639,-179.5 "/>
 <text text-anchor="start" x="25.6465" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Sprite()</text>
 <text text-anchor="start" x="25.6465" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~Sprite()</text>

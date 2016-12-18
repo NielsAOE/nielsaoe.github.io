@@ -13,10 +13,9 @@ var class_particle_system =
     [ "setRandomSizeMode", "class_particle_system.html#a5a9c82f38a65163f5f3988e024e6fca7", null ],
     [ "setSplineColorMode", "class_particle_system.html#a11f6178d2036716aa55f836f080a82a0", null ],
     [ "setSplineSizeMode", "class_particle_system.html#a6eed7e509833cda9603f41153d978f75", null ],
-    [ "setupPhysics", "class_particle_system.html#a048e81ff8ab574f5a34a6990f746bc15", null ],
     [ "SetVectorEmit", "class_particle_system.html#a84968bbdc84a932f378f3cc5c7a64a16", null ],
     [ "SetVelocity", "class_particle_system.html#a4114541a85e16bac896ffd30718cdbd8", null ],
-    [ "Start", "class_particle_system.html#afb21fc1085d46936e20338d8e91407ac", null ],
+    [ "Start", "class_particle_system.html#a051b9f37e560deaa3af2b43a28331dd6", null ],
     [ "update", "class_particle_system.html#a166fd86f020b6024d7d42723762d7cb2", null ],
     [ "partSize", "class_particle_system.html#af6f61ed073d7320f3999403e3a57f77c", null ],
     [ "tex", "class_particle_system.html#a445a099cdeba13dad0c94f9e7f2a949c", null ]

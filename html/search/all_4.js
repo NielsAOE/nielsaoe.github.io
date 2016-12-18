@@ -11,6 +11,7 @@ var searchData=
   ['density',['density',['../class_game_object_descriptor.html#a96530edb23d389b2343a5e9de66708d2',1,'GameObjectDescriptor']]],
   ['deny_5fparse_5fcontext',['deny_parse_context',['../classpicojson_1_1deny__parse__context.html',1,'picojson']]],
   ['doubles',['doubles',['../_player_pref_manager_8cpp.html#ae54ef3f36329d88192f3dbd5a5d11145',1,'PlayerPrefManager.cpp']]],
+  ['downpressed',['downPressed',['../class_input_manager.html#a04120547baa9cf1d3b5bc569d99c454c',1,'InputManager']]],
   ['dpressed',['dPressed',['../class_input_manager.html#a16ad116f5eaa3354c1c3105161200865',1,'InputManager']]],
   ['draw',['draw',['../class_renderer.html#a9a0a5f207e3d9f60c6372a9c79b25df9',1,'Renderer::draw()'],['../class_sprite.html#a7827f112449993f98ac32653e803e182',1,'Sprite::draw()']]],
   ['drawcircle',['DrawCircle',['../class_debug_draw.html#ac0511f8b2427a2ed86e7b76ff43a9158',1,'DebugDraw']]],

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jonida Game Engine by nies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Jonida Game Engine</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.itu.dk/nies/JoNiDa" class="btn">View on GitHub</a>
+      <a href="https://rawgit.com/nielsAOE/nielsaoe.github.io/master/html/" class="btn">View documentation</a>
+    </section>
+
+    <section class="main-content">
+      <p><strong>Exercise</strong> subfolder contains our exercises</p>
+
+<p><strong>Game Engine</strong> subfolder contains the game engine</p>
+
+<h1>
+<a id="game-engine" class="anchor" href="#game-engine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Engine</h1>
+
+<p><img src="ClassDiagram.svg" alt="Game Engine Class diagram" title="Game Engine Class Diagram"></p>
+
+<h1>
+<a id="engine-classes" class="anchor" href="#engine-classes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Engine Classes</h1>
+
+<p>The structure of this game engine is similar to that of Unity.
+As seen on the class diagram (see figure 1), it uses a scene structure, with the game objects themselves being loaded through a .json-file. 
+The engine supports a number of components, which can be added to or removed from a specific game object. The engine also supports multiple scriptable components attached to a single game object.</p>
+
+<h3>
+<a id="gameobject" class="anchor" href="#gameobject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GameObject</h3>
+
+<p>A game object is the base class for all entities, which are the things we want to draw and manipulate in our game world. A game object contains a number of components, each containing various information about the game object, for instance transform, various scripts and the physics of the object.</p>
+
+<p><img src="html/class_game_object__coll__graph.svg" alt="GameObject" title="GameObject"></p>
+
+<h3>
+<a id="component" class="anchor" href="#component" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Component</h3>
+
+<p>A component is the base class for everything which is to be attached to a game object. This includes components to determine the rotation and size of a game object, its physics as well as scripts and others.
+<img src="html/class_component__inherit__graph.svg" alt="Component diagram" title="Component Diagram"></p>
+
+<h3>
+<a id="audiosource" class="anchor" href="#audiosource" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AudioSource</h3>
+
+<p>The engine uses the irrKlang-library to imitate 3D sounds in the game world. This component contains a single irrKlang-device, to which Audio sounds are added.</p>
+
+<h3>
+<a id="lightsource" class="anchor" href="#lightsource" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LightSource</h3>
+
+<p>The engine can currently create directional- or point-lights. To create a light, it must be given a direction, a colour and a range of the light. The position of the light is dependent on the game object the LightSource-component is attached to. Lights are created using the SimpleRenderEngine, and any limitations this must have (such as number of possible active lights) are applicable to this engine. It is currently possible to change either the colour or range of a specific light, as well as its type during runtime.</p>
+
+<h3>
+<a id="particlesystem" class="anchor" href="#particlesystem" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ParticleSystem</h3>
+
+<p>A simple system to emit particles. The system contains methods to change the colour, size and velocity of the current particles. The colour and size can either be static, differ randomly between two values, change linearly over time from one value to another, or change following a Catmull-Rom spline. The particles can be set to emit in either a random direction 360° around the game object the system is attached to, or in the direction of a given glm::vector3. To set the direction to a vector, however, the method needs to be called after starting the system, as the system uses circular random as standard.</p>
+
+<h3>
+<a id="renderer" class="anchor" href="#renderer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Renderer</h3>
+
+<p>A renderer is a component and is what draws the game object, making it appear on the screen. It contains the colour of the game object, and has access to transform components for drawing the game object.</p>
+
+<h3>
+<a id="rigidbody" class="anchor" href="#rigidbody" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rigidbody</h3>
+
+<p>A game object with a rigidbody has physics imposed on it. The engine supports either dynamic, static or kinematic rigidbodies. Rigidbodies can be either boxes or circles. The engine utilizes Box2D to create physics.</p>
+
+<h3>
+<a id="scriptable" class="anchor" href="#scriptable" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scriptable</h3>
+
+<p>To make the engine more dynamic, we have created a scriptable component. This enables multiple, unique scripts to be written and attached to each game object. An example could be a CharacterController, which allows gameObjects to move accordingly to the script. The scriptable component currently contains an Awake, Start and Update method. Awake() is called when the game object is created, Start() is called when the game object is initialized and Update() is called every frame. Scripts can currently only be written in C++.</p>
+
+<h3>
+<a id="transform" class="anchor" href="#transform" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Transform</h3>
+
+<p>All GameObjects are created with a Transform Component, and it includes the position, rotation and scale of an object. These values can then be manipulated to change the appearance and position of the game object. </p>
+
+<h3>
+<a id="physicsmanager" class="anchor" href="#physicsmanager" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PhysicsManager</h3>
+
+<p>The physics manager contains the physics world in which all Rigidbody fixtures are contained. It is used to step the physics for all fixtures from the Engine loop.
+It also has methods which gets called when two colliders either begin touching each other or just before they leave each other. This in turns checks if any of the colliders have any scripts attached, and if they do, calls their OnCollisionEnter() or OnCollisionExit(), respectively.</p>
+
+<h3>
+<a id="scene" class="anchor" href="#scene" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scene</h3>
+
+<p>The scene is the “game world”. All game objects are stored in the scene. Game objects can either be added or removed from a scene, as well as get a specific game object currently contained in the scene. It is also possible to get all the game objects currently stored in a scene.</p>
+
+<h3>
+<a id="sceneparser" class="anchor" href="#sceneparser" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SceneParser</h3>
+
+<p>The engine utilizes picojson to read game objects from a .json-file, creating and storing them in a scene. Each game object read from a .json-file must contain:</p>
+
+<ul>
+<li>A unique ID</li>
+<li>A name</li>
+<li>Name of the mesh type</li>
+<li>Color</li>
+<li>Position</li>
+<li>Rotation</li>
+<li>Scale</li>
+<li>ParentID, 0 if it has no parent</li>
+<li>Bounce value</li>
+<li>Density</li>
+<li>Fixture, which can be set to "NOFIXTURE", "DYNAMIC", "STATIC" or "KINEMATIC"</li>
+</ul>
+
+<h3>
+<a id="engine" class="anchor" href="#engine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Engine</h3>
+
+<p>The engine class is what ties the actual engine together. It contains the main game loop, where all components and scripts are updated. It also contains the method called when loading a scene, and contains the actual scene, keeping information of all the current game objects in the scene. This class is also responsible for initializing and loading the SimpleRenderEngine as well as dear imgui. The Awake() and Start() methods of scripts are also called from this class. All inputs from the InputManager is handled within this class, and it also controls if the debug window should be shown. The debug windows contains information regarding the applications current usage of RAM and virtual memory, as well as high water marks for these. Furthermore, it is possible to view the unique ID of each game object, as well as all components currently attached to it.
+<img src="html/class_engine__coll__graph.svg" alt="Engine" title="Engine"></p>
+
+<h3>
+<a id="particle" class="anchor" href="#particle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Particle</h3>
+
+<p>Particles are used by the particle system. Each particle contains their current position, their velocity and the time of which they were created.</p>
+
+<h3>
+<a id="audio" class="anchor" href="#audio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Audio</h3>
+
+<p>Audio is a wrapper class, containing the actual clip to be played by the called AudioSource-component. This is so users of our engine won’t have to interact with irrKlang themselves.</p>
+
+<h3>
+<a id="camerahandler" class="anchor" href="#camerahandler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CameraHandler</h3>
+
+<p>The camerahandler, while not a component in itself, can be accessed and used to manipulate the camera of the world. All interaction with the camera is done through this class, and it contains methods to change the projection of the camera between orthographic and perspective. Furthermore, the specific area the camera should look at can also be changed. Lastly, it also allows the possibility of following a specific game object.</p>
+
+<h3>
+<a id="inputmanager" class="anchor" href="#inputmanager" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>InputManager</h3>
+
+<p>The engine contains a singleton input manager. The manager uses SDL_events to handle key inputs. This is done by setting a bool to true when a key is pressed and held down, and false as soon as the key is released.</p>
+
+<h3>
+<a id="leakdetection" class="anchor" href="#leakdetection" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LeakDetection</h3>
+
+<p>The engine currently supports the possibility of keeping track of a number of things, including:</p>
+
+<ul>
+<li>Total RAM on the machine</li>
+<li>Current RAM free on the machine</li>
+<li>Current RAM used by the machine</li>
+<li>Current RAM used by the application/game</li>
+<li>Total virtual memory on the machine</li>
+<li>Current virtual memory used by the application/game</li>
+</ul>
+
+<p>These statistics are available on both Windows- and macOS-computers.
+However, as stated during the "Engine"-paragraph, the debug window currently only shows the current RAM and virtual memory usage of the application.</p>
+
+<h3>
+<a id="playerprefmanager" class="anchor" href="#playerprefmanager" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PlayerPrefManager</h3>
+
+<p>The player preferences manager is used to save and load values set by the user. It is currently possible to store both integers, doubles, strings and booleans. It is also possible to check if a value is present in the loaded file. The manager uses a given organisation name and application name, given to SDL_GetPrefPath(), to determine the file path of the preferences file. Files are stored as .json-files using picojson.</p>
+
+<h3>
+<a id="spriteatlas" class="anchor" href="#spriteatlas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SpriteAtlas</h3>
+
+<p>This class loads a texture atlas from a .json file utilizing picojson. A map is used to contain all the sprites, with the name of the sprite being the key.</p>
+
+<h3>
+<a id="sprite" class="anchor" href="#sprite" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sprite</h3>
+
+<p>The class containing the actual sprites. This class slices the texture atlas, based on given parameters, and saves the sprite in the map of the spriteatlas class.</p>
+
+<h3>
+<a id="utility" class="anchor" href="#utility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Utility</h3>
+
+<p>The utility class is currently used by the SpriteAtlas class to load .json-files as strings using picojson.</p>
+
+<h1>
+<a id="demonstrations" class="anchor" href="#demonstrations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demonstrations</h1>
+
+<p>To showcase the engine, multiple demonstration-programs have been made. There are a total of three demonstrations, displaying:</p>
+
+<ul>
+<li>Physics</li>
+<li>Particles</li>
+<li>3D Audio</li>
+</ul>
+
+<p>Furthermore, a platformer game has been made to show multiple features of the engine in one application.</p>
+
+<h1>
+<a id="performance" class="anchor" href="#performance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Performance</h1>
+
+<p>As the engine utilizes SimpleRenderEngine, the engine itself is limited in performance to the same performance as SimpleRenderEngine when it comes to rendering a certain amount of game objects.</p>
+
+<p>We have found that on a computer with X specifications, the number of frames per seconds starts dropping when there are X game objects in the scene.</p>
+
+<h1>
+<a id="discussion" class="anchor" href="#discussion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Discussion</h1>
+
+<p>The game engine is currently working, as it allows developers to create games, albeit somewhat simple.</p>
+
+<p>To improve the engine, a number of features could be implemented. This would also allow for the creation of more complex games. 
+Some of the features this group would like to see implemented include:</p>
+
+<p><strong>A method for unloading/destroying scenes</strong></p>
+
+<p>As it is now, the developer will manually have to delete every game object contained in a scene before loading a new one. Otherwise, the new game objects might overwrite the old ones, and the game objects not overwritten from the old scene can be found in the new. A method specifically to destroy a scene could be created, or the logic could be implemented in the current method for loading scenes, automatically resetting the scene before adding game objects.</p>
+
+<p><strong>Expand the possible file formats which can be loaded</strong></p>
+
+<p>Currently only .json-files can be loaded, and meshes can only be either cubes spheres or planes. A possible file format to load could be .obj.</p>
+
+<p><strong>Not drawing objects outside the cameras vision</strong></p>
+
+<p>To optimize performance, objects outside the view of the camera could be omitted from being drawn. This ensures fewer objects will be drawn in most cases.</p>
+
+<p><strong>Expand possible scripting languages</strong></p>
+
+<p>The engine currently support scripts written in C++. However, to give a greater ease of use and appeal, it would be ideal to expand this to include languages such as JavaScript, C# or Lua.</p>
+
+<p><strong>3D Physics</strong></p>
+
+<p>While the engine itself can be used to make games in 3D, the current physics system utilized is only applicable to 2D. As such, 3D games created using our engine cannot contain physics.</p>
+
+<p><strong>Easier to animate sprites</strong></p>
+
+<p>As it is right now, the only way to animate sprites is through a script. This means the developer will have to get every single sprite, wait the appropriate time and draw the new sprite through a script attached to the corresponding game object.</p>
+
+<p><strong>Shadows</strong></p>
+
+<p>More complex graphics features, such as shaders and shadows, would be a nice addition to the engine, as this could give more realism to games.</p>
+
+<p><strong>Networking</strong></p>
+
+<p>It would also be ideal to implement some sort of networking, making the engine capable of creating online games.</p>
+
+<p><strong>User Interface</strong></p>
+
+<p>Currently, the engine can only show a hardcoded user interface when run in debug mode. Creating the possibility of adding UI elements to a game would be greatly beneficial, to create elements such as a start screen or pause screen.</p>
+
+<p><strong>Performance</strong></p>
+
+<p>As mentioned, after spawning X number of game objects in the world, the framerate starts dropping. While this could possibly be due to performance constraints from SimpleRenderEngine, there might still be ways to improve the performance of our engine. As stated earlier, objects outside the view of the camera can be omitted from being drawn. Further more, some game objects could be destroyed after reaching a certain number of objects in the scene. But by using this method, means to prevent important game objects from being destroyed will then have to be taken. </p>
+
+<p>Lastly, performance of the engine can always be optimized. But given the time constraints and limited scope of this project, the group believes the engine has an acceptable performance as is.</p>
+
+<h1>
+<a id="who-did-what" class="anchor" href="#who-did-what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who did what?</h1>
+
+<p><strong>Daniel</strong>:</p>
+
+<ul>
+<li>PlayerPrefs</li>
+<li>AudioSource</li>
+<li>AudioDemo</li>
+<li>InputManager</li>
+<li>Particle Demo</li>
+</ul>
+
+<p><strong>Johan</strong>:</p>
+
+<ul>
+<li>PhysicsDemo</li>
+<li>CameraHandler</li>
+<li>SpriteAtlas</li>
+<li>Sprite</li>
+<li>Game</li>
+</ul>
+
+<p><strong>Niels</strong>:</p>
+
+<ul>
+<li>Audio</li>
+<li>AudioSource</li>
+<li>InputManager</li>
+<li>LightSource</li>
+<li>Documentation</li>
+<li>PhysicsManager - OnCollionEnter/OnCollisionExit</li>
+<li>Game</li>
+</ul>
+
+<p><em>Hvem lavede PhysManager og RigidBody?</em></p>
+
+<p><strong>Daniel</strong>, <strong>Johan</strong> &amp; <strong>Niels</strong>:</p>
+
+<ul>
+<li>Component</li>
+<li>Engine</li>
+<li>GameObject</li>
+<li>LeakDetection</li>
+<li>Particle</li>
+<li>ParticleSystem</li>
+<li>Renderer</li>
+<li>RigidBody</li>
+<li>Scene</li>
+<li>Scriptable</li>
+<li>Transform</li>
+<li>etc.</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.itu.dk/nies/JoNiDa">Jonida Game Engine</a> is maintained by <a href="https://github.itu.dk/nies">nies</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

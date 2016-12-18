@@ -1,12 +1,10 @@
 <map id="DebugDraw.hpp" name="DebugDraw.hpp">
-<area shape="rect" id="node2" href="$_debug_draw_8cpp.html" title="DebugDraw.cpp" alt="" coords="145,79,261,104"/>
-<area shape="rect" id="node3" href="$_physics_manager_8hpp.html" title="PhysicsManager.hpp" alt="" coords="285,79,430,104"/>
-<area shape="rect" id="node4" href="$_rigidbody_8hpp.html" title="Rigidbody.hpp" alt="" coords="175,152,281,177"/>
-<area shape="rect" id="node6" href="$_engine_8cpp.html" title="Engine.cpp" alt="" coords="5,299,93,324"/>
-<area shape="rect" id="node9" href="$_particle_system_8cpp.html" title="ParticleSystem.cpp" alt="" coords="366,299,501,324"/>
-<area shape="rect" id="node11" href="$_physics_manager_8cpp.html" title="PhysicsManager.cpp" alt="" coords="524,152,668,177"/>
-<area shape="rect" id="node5" href="$_scene_parser_8hpp.html" title="SceneParser.hpp" alt="" coords="166,225,290,251"/>
-<area shape="rect" id="node8" href="$_particle_system_8hpp.html" title="ParticleSystem.hpp" alt="" coords="313,225,449,251"/>
-<area shape="rect" id="node10" href="$_rigidbody_8cpp.html" title="Rigidbody.cpp" alt="" coords="37,225,142,251"/>
-<area shape="rect" id="node7" href="$_scene_parser_8cpp.html" title="SceneParser.cpp" alt="" coords="167,299,289,324"/>
+<area shape="rect" id="node2" href="$_debug_draw_8cpp.html" title="DebugDraw.cpp" alt="" coords="133,79,249,104"/>
+<area shape="rect" id="node3" href="$_physics_manager_8hpp.html" title="PhysicsManager.hpp" alt="" coords="273,79,418,104"/>
+<area shape="rect" id="node4" href="$_rigidbody_8hpp.html" title="Rigidbody.hpp" alt="" coords="177,152,283,177"/>
+<area shape="rect" id="node6" href="$_engine_8cpp.html" title="Engine.cpp" alt="" coords="251,299,339,324"/>
+<area shape="rect" id="node9" href="$_physics_manager_8cpp.html" title="PhysicsManager.cpp" alt="" coords="383,152,527,177"/>
+<area shape="rect" id="node5" href="$_scene_parser_8hpp.html" title="SceneParser.hpp" alt="" coords="5,225,129,251"/>
+<area shape="rect" id="node8" href="$_rigidbody_8cpp.html" title="Rigidbody.cpp" alt="" coords="153,225,258,251"/>
+<area shape="rect" id="node7" href="$_scene_parser_8cpp.html" title="SceneParser.cpp" alt="" coords="6,299,129,324"/>
 </map>

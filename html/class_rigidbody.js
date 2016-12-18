@@ -7,7 +7,6 @@ var class_rigidbody =
       [ "NOFIXTURE", "class_rigidbody.html#a6dad2fe845b1823877f843c259c8efeea812c669ac73f818a5e6cd7142f584f26", null ]
     ] ],
     [ "Rigidbody", "class_rigidbody.html#a9766ab6f5b3ab9aace8d7712d4364701", null ],
-    [ "PreSolve", "class_rigidbody.html#ae778f98fcddbe3a01c149a5ce1c07907", null ],
     [ "Setup", "class_rigidbody.html#ad68857e87ad5261bab1adc3ad2d9ee3f", null ],
     [ "GameObject", "class_rigidbody.html#a00df87c957d8f7ee0fc51f07a0542f4a", null ],
     [ "bd", "class_rigidbody.html#a98bf02cbbd3a1287115081008d5032b0", null ],

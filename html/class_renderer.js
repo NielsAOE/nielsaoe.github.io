@@ -6,5 +6,6 @@ var class_renderer =
     [ "GameObject", "class_renderer.html#a00df87c957d8f7ee0fc51f07a0542f4a", null ],
     [ "color", "class_renderer.html#a9790de4079196dd437e6de42ea2abf40", null ],
     [ "mesh", "class_renderer.html#a659dbf1bdbd4fa745fea0a941278aee3", null ],
-    [ "shader", "class_renderer.html#a9d93016ff7f84035729beddacc48fa8c", null ]
+    [ "shader", "class_renderer.html#a9d93016ff7f84035729beddacc48fa8c", null ],
+    [ "texture", "class_renderer.html#a8516a4369944a4da5b7b4a7b4b59a380", null ]
 ];

@@ -28,7 +28,7 @@
 </g>
 <!-- Node19 -->
 <g id="node3" class="node"><title>Node19</title>
-<g id="a_node3"><a xlink:href="class_engine.html#affd32740921bf7e26bd575cd17d57a85" target="_top" xlink:title="Engine::CountObjectsDown">
+<g id="a_node3"><a xlink:href="class_engine.html#affd32740921bf7e26bd575cd17d57a85" target="_top" xlink:title="You must not use this. It is for internal logic only. ">
 <polygon fill="none" stroke="black" points="175.389,-0.5 175.389,-18.5 314.235,-18.5 314.235,-0.5 175.389,-0.5"/>
 <text text-anchor="middle" x="244.812" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00">Engine::CountObjectsDown</text>
 </a>
