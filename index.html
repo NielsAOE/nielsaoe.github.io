@@ -18,8 +18,7 @@
     </section>
 
     <section class="main-content">
-
-<h1>
+      <h1>
 <a id="game-engine" class="anchor" href="#game-engine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game Engine</h1>
 
 <p><img src="ClassDiagram.svg" alt="Game Engine Class diagram" title="Game Engine Class Diagram"></p>
@@ -42,7 +41,6 @@ The engine supports a number of components, which can be added to or removed fro
 <a id="component" class="anchor" href="#component" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Component</h3>
 
 <p>A component is the base class for everything which is to be attached to a game object. This includes components to determine the rotation and size of a game object, its physics as well as scripts and others.
-<p></p>
 <img src="html/class_component__inherit__graph.svg" alt="Component diagram" title="Component Diagram"></p>
 
 <h3>
@@ -113,8 +111,9 @@ It also has methods which gets called when two colliders either begin touching e
 <h3>
 <a id="engine" class="anchor" href="#engine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Engine</h3>
 
-<p>The engine class is what ties the actual engine together. It contains the main game loop, where all components and scripts are updated. It also contains the method called when loading a scene, and contains the actual scene, keeping information of all the current game objects in the scene. This class is also responsible for initializing and loading the SimpleRenderEngine as well as dear imgui. The Awake() and Start() methods of scripts are also called from this class. All inputs from the InputManager is handled within this class, and it also controls if the debug window should be shown. The debug windows contains information regarding the applications current usage of RAM and virtual memory, as well as high water marks for these. Furthermore, it is possible to view the unique ID of each game object, as well as all components currently attached to it.
-<img src="html/class_engine__coll__graph.svg" alt="Engine" title="Engine"></p>
+<p>The engine class is what ties the actual engine together. It contains the main game loop, where all components and scripts are updated. It also contains the method called when loading a scene, and contains the actual scene, keeping information of all the current game objects in the scene. This class is also responsible for initializing and loading the SimpleRenderEngine as well as dear imgui. The Awake() and Start() methods of scripts are also called from this class. All inputs from the InputManager is handled within this class, and it also controls if the debug window should be shown. The debug windows contains information regarding the applications current usage of RAM and virtual memory, as well as high water marks for these. Furthermore, it is possible to view the unique ID of each game object, as well as all components currently attached to it.</p>
+
+<p><img src="html/class_engine__coll__graph.svg" alt="Engine" title="Engine"></p>
 
 <h3>
 <a id="particle" class="anchor" href="#particle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Particle</h3>
